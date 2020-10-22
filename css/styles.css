@@ -130,7 +130,7 @@ div.Logements:hover {
 
 #TopLogement {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 5px;
     margin: 10px;
     border: 1px solid green;}
