@@ -11,8 +11,8 @@
         }
 
 #bloc_page {
-    width:1440px;
-    height:1884px;}
+    width:auto;   /*1440px*/
+    height:auto;}     /*1884px*/
 
     /* HEADER */
 header {
@@ -26,21 +26,23 @@ header {
 
 nav {        /*Zone navigation en haut a droite*/
     position: absolute;
-    display:inline-block;
-    right:75px;
-    top:50px;
-    height:70px;
+    right:1px;
+    top:1px;
+    display:flex;
+    list-style-type: none;
     border: 1px solid green;}
 
 nav ul {
-    list-style-type: none;
-    margin:10px;
-    padding:10px;
-    display:flex;}
+    display:flex;
+    margin-right: 75px;
+    border: 1px solid black;}
 
 nav li {
-    margin: 10px;
-    padding:5px;}
+    display:flex;
+    margin:40px;
+    vertical-align: middle;
+    align-content: center;
+    border: 1px solid red;}
 
 nav a.nav1 {
     color: #deebff;
@@ -57,16 +59,19 @@ nav a.nav3 {
     display: flex;
     flex-direction: row;
     justify-content: end;
+    color: white;
+    background-color: blue;
+    border-radius:7px;
     margin-left: 55px;
     margin-bottom:35px;
-    margin-top: 20px;
-    color: blue;}
+    margin-top: 20px;}
 
 #bfiltres {      /*Filtres selon envie*/
     display: flex;
     flex-direction: row;
     display:inline-block;
     height: 20px;
+    margin-left: 65px;
     margin-top: 20px;
     border: 1px solid black}
 
@@ -78,6 +83,10 @@ nav a.nav3 {
     margin-top: 2px;
     margin-left: 55px;}
 
+p {
+    margin-top: 2px;
+    margin-left: 65px;}
+
     /*BODY*/
 
 body {
@@ -86,61 +95,69 @@ body {
 section {
     display:flex;}
 
-div#boxsection1 {
-    height: 625px;
-    width: 880px;}
-
-div#boxsection2 {
-    height:620;
-    width: 420;}
-
 #boxsection1 {
     display:flex;
-    height:626px;
-    width: 880px;
+    flex-direction: space-around;
+    height: auto;   /*625px*/
+    width: 880px;   /*880px*/
     border-radius: 5px;
     background-color: grey;}
 
 #boxsection1.ts1 {
+    text-align: justify;
     top:2px;
     left:2px;}
     
 #boxsection1.ts2 {
+    text-align: justify;
     bottom: 2px;
     left:2px;}
 
 #boxsection1 img {
     display:flex;
-    flex-direction:row;
-    display: inline-block;
+    flex-direction: inline-block;
+    justify-content: space-around;
     height: 112px;
     width: 235px;
     margin:2px;
     border-radius: 5px;
-    box-shadow: initial;
     border: 1px solid blue;}
 
-div.Logements:hover {
+.Log1:hover {
     transform:scale(1.01);
     transition: 0.2 all;}
 
 #boxsection2 {
-    border-radius: 5px;
-    border: 1px solid blue;}
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        margin:2px;
+        height:620px;
+        width: 420px;
+        border-radius: 5px;
+        border: 1px solid blue}
+
+#boxsection2 img {
+    height:132px;
+    width: 128px;
+    margin: 2px;
+    border: 1px solid pink;}
 
 #TopLogement {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 5px;
     margin: 10px;
     border: 1px solid green;}
 
-.top {
+.top1.top2.top3 {
     display:flex;
     flex-direction: column;
-    height:132px;
-    width: 128px;
     border: 1px solid black}
+
+#section1 #section2 {
+    vertical-align: middle;
+}
 
 #boxsection3 {
     display:flex;
@@ -150,7 +167,7 @@ div.Logements:hover {
 
 #boxsection3 img {
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
     height: 100px;
     width: 150px;
     margin: 10px;
@@ -177,7 +194,7 @@ div.Logements:hover {
 
 footer {    /*Bloc FOOTER*/
     height:215px;
-    width: 1440px;
+    width: auto;
     margin:0px}
 
 #Contact {      /*Bloc de fin*/
