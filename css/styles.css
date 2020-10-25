@@ -57,16 +57,23 @@ nav a.nav2 {
 nav a.nav3 {
     color:#0065FC;}
 
+#lieu {
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left:55px;
+    height: 30px;}
 
 .Rechercher {       /*Barre de recherche*/
     display:flex;
     flex-direction: row;
     color: white;
     background-color: blue;
+    text-align: center;
     border-radius:7px;
-    margin-left:55px;
-    width: 100px;
-    height: 30px;}
+    margin:0px;
+    height: 20px;
+    width: 130px;}
 
 #bfiltres {      /*Filtres selon envie*/
     display: flex;
