@@ -12,7 +12,8 @@
 
 #bloc_page {
     width:auto;   /*1440px*/
-    height:auto;}     /*1884px*/
+    height:auto;  /*1884px*/
+    }     
 
     /* HEADER */
 header {
@@ -22,26 +23,28 @@ header {
 #logoGauche {       /*Applique le logo a gauche selon la maquette*/
     position:absolute;     
     left: 55px;
-    top: 53px;}
+    top: 50px;}
 
 nav {        /*Zone navigation en haut a droite*/
-    position: absolute;
-    right:1px;
-    top:1px;
     display:flex;
-    list-style-type: none;
+    flex-direction: row;
+    position: absolute;
+    right:0px;
+    top:0px;
     border: 1px solid green;}
 
 nav ul {
     display:flex;
-    margin-right: 75px;
+    margin:0px;
     border: 1px solid black;}
 
 nav li {
     display:flex;
-    margin:40px;
-    vertical-align: middle;
+    list-style-type: none;
     align-content: center;
+    margin:65px;
+    margin-right: 75px;
+    margin-top: 50px;;
     border: 1px solid red;}
 
 nav a.nav1 {
@@ -97,8 +100,8 @@ section {
 
 #boxsection1 {
     display:flex;
-    flex-direction: space-around;
-    height: auto;   /*625px*/
+    flex-direction: row;
+    height: 625px;   /*625px*/
     width: 880px;   /*880px*/
     border-radius: 5px;
     background-color: grey;}
