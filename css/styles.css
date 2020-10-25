@@ -59,24 +59,34 @@ nav a.nav3 {
 
 
 .Rechercher {       /*Barre de recherche*/
-    display: flex;
+    display:flex;
     flex-direction: row;
-    justify-content: end;
     color: white;
     background-color: blue;
     border-radius:7px;
-    margin-left: 55px;
-    margin-bottom:35px;
-    margin-top: 20px;}
+    margin-left:55px;
+    width: 100px;
+    height: 30px;}
 
 #bfiltres {      /*Filtres selon envie*/
     display: flex;
     flex-direction: row;
-    display:inline-block;
     height: 20px;
+    margin: 30px;
     margin-left: 65px;
     margin-top: 20px;
     border: 1px solid black}
+
+#filtres {
+    display:flex;
+    flex-direction: row;
+    height: 20px;
+    width: 60px;
+    border: 1px solid blue;}
+
+#Economique,#Familial,#Romantique,#AnimauxAutorisés {
+    display:inline-block;
+    border: 1px solid red}
 
 #th1 {
     margin-top:130px;
@@ -86,7 +96,7 @@ nav a.nav3 {
     margin-top: 2px;
     margin-left: 55px;}
 
-p {
+header p {
     margin-top: 2px;
     margin-left: 65px;}
 

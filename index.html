@@ -7,7 +7,7 @@
     <title>Réservia</title>
 </head>
 
-<body>
+<header>
     <div id="bloc_page">
 
     <div id="logoGauche">
@@ -23,7 +23,7 @@
     <h1 id="th1">Trouvez votre hébergement pour des vacances de rêve</h1>
     <p1 id="th2">En plein centre ville ou en  pleine nature</p1> 
 
-    <form method="POST" action="traitement.php">
+    <form class=Rechercher method="POST" action="traitement.php">
         <label for="lieu"></label>
         <input type="text" name="lieu" id="lieu" placeholder="Marseille, France">
         <p class="Rechercher">Rechercher</p>
@@ -31,15 +31,18 @@
 
 <div id="bfiltres">
     <div id="filtres">Filtres :</div>
+        <div class="positionf">
         <div id="Economique">Economique</div>
         <div id="Familial">Familial</div>
         <div id="Romantique">Romantique</div>
-        <div id="Animaux Autorisés">Animaux Autorisés</div>
+        <div id="AnimauxAutorisés">Animaux Autorisés</div>
+        </div>
 </div>
 
     <p><em>Plus de 500 logements sont disponibles dans cette ville</em></p>
 </header>
 
+<body>
 <section id="section1">
     <div id="boxsection1">        <!--Bloc "Hébergement a Marseille-->
         <h1 class="tsl">Hébergement a Marseille</h1>
