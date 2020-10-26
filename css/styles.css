@@ -58,22 +58,18 @@ nav a.nav3 {
     color:#0065FC;}
 
 #lieu {
-    display:flex;
-    flex-direction: row;
-    margin-top: 10px;
-    margin-left:55px;
-    height: 30px;}
+    margin-left: 55px;
+    margin-top: 10px;}
 
-.Rechercher {       /*Barre de recherche*/
+.Rechercher {
     display:flex;
     flex-direction: row;
+    text-align: end;
     color: white;
     background-color: blue;
-    text-align: center;
-    border-radius:7px;
-    margin:0px;
-    height: 20px;
-    width: 130px;}
+    border-radius: 7px;
+    height:30px;
+    width: 100px;}
 
 #bfiltres {      /*Filtres selon envie*/
     display: flex;
@@ -107,7 +103,7 @@ header p {
     margin-top: 2px;
     margin-left: 65px;}
 
-    /*BODY*/
+                                                                        /*BODY*/
 
 body {
     margin:0px;}
@@ -135,8 +131,7 @@ section {
 
 #boxsection1 img {
     display:flex;
-    flex-direction: inline-block;
-    justify-content: space-around;
+    flex-direction: column;
     height: 112px;
     width: 235px;
     margin:2px;
@@ -144,6 +139,21 @@ section {
     border: 1px solid blue;}
 
 .Log1:hover {
+    transform:scale(1.01);
+    transition: 0.2 all;}
+.Log2:hover {
+    transform:scale(1.01);
+    transition: 0.2 all;}
+.Log3:hover {
+    transform:scale(1.01);
+     transition: 0.2 all;}
+.Log4:hover {
+    transform:scale(1.01);
+    transition: 0.2 all;}
+.Log5:hover {
+    transform:scale(1.01);
+    transition: 0.2 all;}
+.Log6:hover {
     transform:scale(1.01);
     transition: 0.2 all;}
 
@@ -175,9 +185,9 @@ section {
     flex-direction: column;
     border: 1px solid black}
 
-#section1 #section2 {
-    vertical-align: middle;
-}
+#boxsection1 #boxsection2 {
+    align-items: center;
+    vertical-align: middle;}
 
 #boxsection3 {
     display:flex;
@@ -200,8 +210,6 @@ section {
     flex-direction: row;
     border: 1px solid blue;}
 
-
-
 .ts1 {
     top:2px;
     left:2px;}
@@ -210,7 +218,7 @@ section {
     bottom:2px;
     left:2px;}
 
-    /*FOOTER*/
+                                                                        /*FOOTER*/
 
 footer {    /*Bloc FOOTER*/
     height:215px;
