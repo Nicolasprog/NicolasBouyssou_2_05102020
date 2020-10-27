@@ -234,3 +234,6 @@ footer {    /*Bloc FOOTER*/
     padding-top: 25px;
     height:100px;
     background-color:grey;}
+
+@media all and (max-device-widht: 480px) {                      /*Règle CSS pour écran */
+    }
