@@ -57,6 +57,8 @@ nav a.nav3 {
     color:#0065FC;}
 
 #lieu {
+    display:flex;
+    flex-direction: row;
     margin-left: 55px;
     margin-top: 10px;}
 
@@ -69,6 +71,10 @@ nav a.nav3 {
     border-radius: 7px;
     height:30px;
     width: 100px;}
+
+#lieu.Rechercher {
+    vertical-align: middle;
+    align-content: center;}
 
 #bfiltres {      /*Filtres selon envie*/
     display: flex;
@@ -88,7 +94,7 @@ nav a.nav3 {
 
 #Economique,#Familial,#Romantique,#AnimauxAutorisés {
     display:inline-block;
-    margin-left:30px;
+    margin-left:20px;
     border: 1px solid red}
 
 #th1 {
