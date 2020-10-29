@@ -82,12 +82,13 @@ nav a.nav3 {
 #filtres {
     display:flex;
     flex-direction: row;
-    height: 30px;
+    height: 20px;
     width: 60px;
     border: 1px solid blue;}
 
 #Economique,#Familial,#Romantique,#AnimauxAutorisés {
     display:inline-block;
+    margin-left:30px;
     border: 1px solid red}
 
 #th1 {
@@ -184,6 +185,16 @@ section {
     flex-direction: column;
     border: 1px solid black}
 
+.top1:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+.top2:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+.top3:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+
 #boxsection1 #boxsection2 {
     align-items: center;
     vertical-align: middle;}
@@ -203,6 +214,31 @@ section {
     padding:2px;
     box-shadow: black;
     border: 1px solid black}
+
+.act1:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+
+.act2:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+
+.act3:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+
+.act4:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+
+.act5:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+
+.act6:hover {
+    transform:scale(1.02);
+    transition: 0.2 all;}
+
 
 #Activités {
     display: flex;
