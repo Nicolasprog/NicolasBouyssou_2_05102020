@@ -54,7 +54,7 @@ nav a#nav2 {
 nav a#nav3 {
     color:#0065FC;}
 
-a#nav1:link {
+a {
     text-decoration: none;}
 
 #lieu {
@@ -119,6 +119,10 @@ body {
 section {
     display:flex;}
 
+#test {
+    display:flex;
+    margin:20px;}
+
 #boxsection1 {
     display:flex;
     flex-direction: row;
@@ -148,7 +152,7 @@ section {
 
 .Log1:hover {
     transform:scale(1.01);
-    transition: 0.2 all;}
+    transition: all 0.2 ;}
 .Log2:hover {
     transform:scale(1.01);
     transition: 0.2 all;}
@@ -196,11 +200,6 @@ section {
 img:hover {
     transform:scale(1.02);
     transition: 0.2 all;}
-
-
-#boxsection1 #boxsection2 {
-    align-items: center;
-    vertical-align: middle;}
 
 #boxsection3 {
     display:flex;
