@@ -52,6 +52,9 @@ nav a#nav2 {
 nav a#nav3 {
     color:#0065FC;}
 
+a#nav1:link {
+    text-decoration: none;}
+
 #lieu {
     display:flex;
     flex-direction: row;
