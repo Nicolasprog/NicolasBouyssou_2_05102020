@@ -20,7 +20,9 @@ header {
     border: 1px solid blue}
 
 #logoGauche {           /*Applique le logo a gauche selon la maquette*/
-    position:absolute;     
+    position:absolute;
+    height:50px;
+    width:100px;     
     left: 55px;
     top: 50px;}
 
@@ -191,15 +193,10 @@ section {
     flex-direction: column;
     border: 1px solid black}
 
-.top1:hover {
+img:hover {
     transform:scale(1.02);
     transition: 0.2 all;}
-.top2:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
-.top3:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
+
 
 #boxsection1 #boxsection2 {
     align-items: center;
