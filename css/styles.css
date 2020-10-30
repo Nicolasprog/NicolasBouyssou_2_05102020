@@ -46,14 +46,14 @@ nav li {
     margin-top: 50px;;
     border: 1px solid red;}
 
-nav a.nav1 {
+nav a#nav1 {
     color: #deebff;
     border-top: 1px solid blue;}
 
-nav a.nav2 {
+nav a#nav2 {
     color:grey;}
 
-nav a.nav3 {
+nav a#nav3 {
     color:#0065FC;}
 
 #lieu {
