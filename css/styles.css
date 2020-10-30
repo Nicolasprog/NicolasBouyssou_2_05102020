@@ -150,30 +150,11 @@ section {
     border-radius: 5px;
     border: 1px solid blue;}
 
-.Log1:hover {
-    transform:scale(1.01);
-    transition: all 0.2 ;}
-.Log2:hover {
-    transform:scale(1.01);
-    transition: 0.2 all;}
-.Log3:hover {
-    transform:scale(1.01);
-     transition: 0.2 all;}
-.Log4:hover {
-    transform:scale(1.01);
-    transition: 0.2 all;}
-.Log5:hover {
-    transform:scale(1.01);
-    transition: 0.2 all;}
-.Log6:hover {
-    transform:scale(1.01);
-    transition: 0.2 all;}
-
 #boxsection2 {
         display: flex;
         flex-direction: column;
         background-color: gray;
-        margin:2px;
+        margin-left:60px;
         height:620px;
         width: 420px;
         border-radius: 5px;
@@ -191,11 +172,6 @@ section {
     border-radius: 5px;
     margin: 10px;
     border: 1px solid green;}
-
-.top1.top2.top3 {
-    display:flex;
-    flex-direction: column;
-    border: 1px solid black}
 
 img:hover {
     transform:scale(1.02);
