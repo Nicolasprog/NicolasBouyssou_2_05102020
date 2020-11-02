@@ -196,7 +196,7 @@ section {
     border: 1px solid green;}
 
 .top {
-    display: flex;
+    display: block;
     margin:10px;
     background-color: white;
     border: 1px solid black;}
@@ -272,5 +272,5 @@ footer {    /*Bloc FOOTER*/
     height:215px;
     background-color:grey;}
 
-@media all and (max-device-widht: 480px) {                      /*Règle CSS pour écran */
+@media all and (max-device-widht: 768px) {                      /*Règle CSS pour écran */
     }
