@@ -135,7 +135,8 @@ section {
     height: 625px;   /*625px*/
     width: 880px;   /*880px*/
     border-radius: 5px;
-    background-color:grey;}
+    background-color:grey;
+    border: 1px solid black;}
 
 #boxsection1 img {
     display:flex;
@@ -146,13 +147,13 @@ section {
     border-radius: 5px;
     border: 1px solid blue;}
 
-#boxsection1.ts1 {
-    text-align: start;
+#boxsection1.ts11 {
+    position: absolute;
     top:2px;
     left:2px;}
         
-#boxsection1.ts2 {
-    text-align: end;
+#boxsection1.ts12 {
+    position: absolute;
     bottom: 2px;
     left:2px;}
 
@@ -175,7 +176,7 @@ section {
         display: flex;
         flex-direction: column;
         background-color: gray;
-        margin-left:60px;
+        margin-left:50px;
         height:620px;
         width: 420px;
         border-radius: 5px;
@@ -196,8 +197,14 @@ section {
 
 .top {
     display: flex;
+    margin:10px;
     background-color: white;
     border: 1px solid black;}
+
+#boxsection2.ts21 {
+    position: absolute;
+    top:2px;
+    left:2px;}
 
 img:hover {
     transform:scale(1.02);
@@ -208,6 +215,7 @@ img:hover {
     flex-direction: row;
     margin-left: 50px;
     margin: 65px;
+    padding:30px;
     background-color:white;
     border: 1px solid green;}
 
@@ -237,8 +245,13 @@ img:hover {
 .ts1 {
     top:2px;
     left:2px;}
-.ts2 {
+.ts12 {
     bottom:2px;
+    left:2px;}
+
+#boxsection3.ts31 {
+    position: absolute;
+    top:2px;
     left:2px;}
 
                                                                         /*FOOTER*/
@@ -252,10 +265,11 @@ footer {    /*Bloc FOOTER*/
     display:flex;
     flex-direction: row;
     justify-content:space-between;
+    vertical-align: middle;
     padding-inline-start:30px;
     padding-inline-end: 300px;
     padding-top: 25px;
-    height:100px;
+    height:215px;
     background-color:grey;}
 
 @media all and (max-device-widht: 480px) {                      /*Règle CSS pour écran */
