@@ -29,12 +29,13 @@ header {
 nav {                /*Zone navigation en haut a droite*/
     display:flex;
     flex-direction: row;
-    position: absolute;
-    right:0px;
-    top:0px;
+    position: relative;
     border: 1px solid green;}
 nav ul {
     display:flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
     margin:0px;
     border: 1px solid black;}
 nav li {
@@ -57,26 +58,32 @@ nav a#nav3 {
 a {
     text-decoration: none;}
 
+#boxr {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 50px;
+    padding: 0px;
+    border:1px solid red}
+
 #lieu {
     display:flex;
     flex-direction: row;
+    height:30px;
     margin-left: 55px;
     margin-top: 10px;}
 
 .Rechercher {
     display:flex;
     flex-direction: row;
-    text-align: end;
     color: white;
     background-color: blue;
-    border-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
     height:30px;
     width: 100px;}
 
-#lieu.Rechercher {
-    display: inline-block;
-    vertical-align: middle;
-    align-content: center;}
+
 
 #bfiltres {      /*Filtres selon envie*/
     display: flex;
@@ -84,7 +91,6 @@ a {
     height: 20px;
     margin: 30px;
     margin-left: 65px;
-    margin-top: 20px;
     border: 1px solid black}
 
 #filtres {
@@ -94,9 +100,10 @@ a {
     width: 60px;
     border: 1px solid blue;}
 
-#Economique,#Familial,#Romantique,#AnimauxAutorisés {
+#choix {
     display:inline-block;
     margin-left:20px;
+    height:25px;
     border: 1px solid red}
 
 #th1 {
@@ -119,7 +126,7 @@ body {
 section {
     display:flex;}
 
-#test {
+#boxmiddle {
     display:flex;
     margin:20px;}
 
@@ -180,6 +187,8 @@ img:hover {
 #boxsection3 {
     display:flex;
     flex-direction: row;
+    margin-left: 50px;
+    margin: 65px;
     background-color:white;
     border: 1px solid green;}
 
@@ -189,33 +198,14 @@ img:hover {
     height: 100px;
     width: 150px;
     margin: 10px;
-    padding:2px;
-    box-shadow: black;
+    padding:0px;
+    border-radius: 10px;
     border: 1px solid black}
-
-.act1:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
-.act2:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
-.act3:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
-.act4:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
-.act5:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
-.act6:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
-
 
 #Activités {
     display: flex;
     flex-direction: row;
+    margin:30px;
     border: 1px solid blue;}
 
 .ts1 {
