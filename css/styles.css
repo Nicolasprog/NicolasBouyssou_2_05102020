@@ -131,7 +131,6 @@ section {
 
 #boxsection1 {
     display: flex;
-    flex-direction: row;
     height: 625px;   /*625px*/
     width: 880px;   /*880px*/
     border-radius: 5px;
@@ -140,31 +139,39 @@ section {
 
 #boxsection1 img {
     display:flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     height: 200px;
     width: 245px;
-    margin:2px;
+    margin:0px;
     border-radius: 5px;
     border: 1px solid blue;}
 
-#boxsection1.ts11 {
-    position: absolute;
-    top:2px;
-    left:2px;}
-        
-#boxsection1.ts12 {
-    position: absolute;
-    bottom: 2px;
-    left:2px;}
+.img1 {
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    max-width: 245px;
+    border:1px solid brown;}
 
 .Log {
     display:block;
-    flex-direction: row;
-    position: relative;
+    flex-direction: column;
     background-color: white;
     height:50px;
     max-width: 245px;
+    padding: 5px;
+    margin:0px;
     border: 1px solid black;}
+
+#boxsection1.ts11 {
+    float: inline-start;
+    top:2px;
+    left:2px;}
+            
+#boxsection1.ts12 {
+    float: inline-end;
+    bottom: 2px;
+    left:2px;}
 
 #nom {
     font-weight:bold;}
@@ -183,21 +190,24 @@ section {
         border: 1px solid blue}
 
 #boxsection2 img {
+    float: left;
     height:132px;
     width: 128px;
-    margin: 2px;
     border: 1px solid pink;}
 
 #TopLogement {
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
     margin: 10px;
     border: 1px solid green;}
 
 .top {
     display: block;
-    margin:10px;
+    flex-direction: column;
+    max-height: 132px;
+    text-align: right;
+    margin-right: 20px;
+    margin: 20px;
     background-color: white;
     border: 1px solid black;}
 
