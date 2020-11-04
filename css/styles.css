@@ -129,29 +129,30 @@ section {
     height: 625px;   /*625px*/
     width: 880px;   /*880px*/
     border-radius: 5px;
+    margin-left: 20px;
     background-color:grey;
     border: 1px solid black;}
 #boxsection1 img {
-    display:block;
-    height: 200px;
+    display:flex;
+    max-height:200px;
     width: 245px;
-    border-radius: 5px;
     border: 1px solid blue;}
 .img1 {
     display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 250px;
-    max-width: 245px;
+    flex-wrap:wrap;
+    position: relative;
+    height:210px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
     border:1px solid brown;}
 .logs1 {
-    display:flex;
-    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
     text-align: left;
     background-color: white;
     height:50px;
-    max-width: 245px;
-    padding: 7px;
+    width: 245px;
     border: 1px solid black;}
 .ts11 {
     top:2px;
