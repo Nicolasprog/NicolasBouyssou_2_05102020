@@ -104,7 +104,7 @@ a {
 #choix {
     display:inline-block;
     margin-left:20px;
-    height:25px;
+    height:20px;
     border: 1px solid red}
 
 header p {
@@ -123,41 +123,61 @@ section {
     display:flex;
     margin:20px;}
 
+img:hover {
+    transform:scale(1.01);
+    transition: 0.2 all;}
+
                                                                         /*SECTION 1*/
 #boxsection1 {
     display: flex;
     height: 625px;   /*625px*/
     width: 880px;   /*880px*/
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 20px;
     background-color:grey;
     border: 1px solid black;}
 #boxsection1 img {
     display:flex;
-    max-height:200px;
+    height:170px;
     width: 245px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px ;
     border: 1px solid blue;}
-.img1 {
+#Logements {
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-left: 0px;
+    border: 1px solid green;}
+.boximg1 {
+    display:flex;
     position: relative;
-    height:210px;
+    height:180px;
     width: 250px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 10px;
+    padding: 1px;
+    background-color: white;
     border:1px solid brown;}
 .logs1 {
     position: absolute;
-    bottom: 0px;
+    bottom: 2px;
     text-align: left;
     background-color: white;
     height:50px;
-    width: 245px;
+    width: 235px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     border: 1px solid black;}
 .ts11 {
+    height: 50px;
+    width:150px;
     top:2px;
     left:2px;}       
 .ts12 {
+    position: absolute;
     bottom: 2px;
     left:2px;}
 #nom {
@@ -173,14 +193,15 @@ section {
     margin-left:50px;
     height:625px;
     width: 420px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid blue}
 #boxsection2 img {
     display: flex;
     float: left;
     height:130px;
     width: 128px;
-    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border: 1px solid pink;}
 #TopLogement {
     display: flex;
@@ -194,52 +215,69 @@ section {
     text-align: left;
     vertical-align: middle;
     max-height: 132px;
-    padding-right: 10px;
+    padding: 1px;
     margin: 15px;
     background-color: white;
-    border-radius: 7px;
+    border-radius: 10px;
     border: 1px solid black;}
+.boximg2 {
+    display:flex;
+    margin: 0px;
+    border-radius: 10px;
+    border: 1px solid green;}
 .logs2 {
     text-align: left;
     vertical-align: middle;}
 .ts21 {
-    text-align: start;
     position: absolute;
     margin-top: 7px;
-    margin-left:35px;}
+    margin-left:30px;}
 
-img:hover {
-    transform:scale(1.02);
-    transition: 0.2 all;}
 
                                                             /*SECTION 3*/
 #boxsection3 {
     display:flex;
     flex-direction: row;
-    margin-top: 65px;
     height: 300px;
+    width: 1440px;
+    margin-top: 80px;
     background-color:white;
+    border-radius: 10px;
     border: 1px solid green;}
 #boxsection3 img {
     display:flex;
-    flex-direction:row;
     height: 100px;
     width: 150px;
-    margin: 20px;
-    border-radius: 10px;
-    border: 1px solid black}
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    border: 1px solid pink}
 #Activités {
     display: flex;
-    flex-direction: row;
     margin:20px;
     border: 1px solid blue;}
-.act {
+.boximg3 {
     display:flex;
+    flex-direction: column;
     background-color: white;
     border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1px;
+    height:130px;
+    width:152px;}
+.nom3 {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0px;
     height:30px;
-    width:200px;}
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    border: 1px solid green;}
 .ts31 {
+    display: inline-block;
+    height: 30px;
+    width: 300px;
     top:2px;
     left:2px;}
 
