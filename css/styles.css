@@ -211,18 +211,20 @@ img:hover {
     border: 1px solid green;}
 .top {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
     vertical-align: middle;
-    max-height: 132px;
-    padding: 1px;
+    height: 135px;
     margin: 15px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid black;}
 .boximg2 {
     display:flex;
+    flex-direction: row;
+    width: auto;
     margin: 0px;
+    padding:1px;
     border-radius: 10px;
     border: 1px solid green;}
 .logs2 {
@@ -288,7 +290,6 @@ footer {    /*Bloc FOOTER*/
     width: auto;
     margin:0px;
     border:1px solid black;}
-
 #Contact {      /*Bloc de fin*/
     display:flex;
     flex-direction: row;
