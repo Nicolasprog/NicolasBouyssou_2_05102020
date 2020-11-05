@@ -29,10 +29,12 @@ header {
 nav {                /*Zone navigation en haut a droite*/
     display:flex;
     flex-direction: row;
+    list-style-type: none;
     position: relative;
     border: 1px solid green;}
 nav ul {
     display:flex;
+    list-style-type: none;
     position: absolute;
     right: 0px;
     top: 0px;
@@ -40,7 +42,6 @@ nav ul {
     border: 1px solid black;}
 nav li {
     display:flex;
-    list-style-type: none;
     align-content: center;
     margin:65px;
     margin-right: 75px;
@@ -58,8 +59,8 @@ a {
     text-decoration: none;}
 
 #boxr {
-    display: inline-block;
-    align-items: flex-start;
+    display: flex;
+    align-content: flex-start;
     margin-left: 50px;
     height: 40px;
     width: 320px;
@@ -138,6 +139,7 @@ img:hover {
     border: 1px solid black;}
 #boxsection1 img {
     display:flex;
+    position: absolute;
     height:170px;
     width: 245px;
     border-top-right-radius: 10px;
@@ -146,17 +148,17 @@ img:hover {
 #Logements {
     display:flex;
     flex-wrap: wrap;
-    margin-top: 70px;
-    margin-left: 0px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     border: 1px solid green;}
 .boximg1 {
     display:flex;
     position: relative;
-    height:180px;
-    width: 250px;
+    height:195px;
+    width: 247px;
     border-radius: 10px;
-    margin: 10px;
-    padding: 1px;
+    margin-left: 10px;
+    padding:1px;
     background-color: white;
     border:1px solid brown;}
 .logs1 {
@@ -164,7 +166,7 @@ img:hover {
     bottom: 2px;
     text-align: left;
     background-color: white;
-    height:50px;
+    height:55px;
     width: 235px;
     padding-left: 10px;
     padding-top: 5px;
@@ -172,14 +174,13 @@ img:hover {
     border-bottom-right-radius: 10px;
     border: 1px solid black;}
 .ts11 {
-    height: 50px;
-    width:150px;
-    top:2px;
-    left:2px;}       
+    position: relative;
+    top:10px;
+    left:10px;}       
 .ts12 {
-    position: absolute;
-    bottom: 2px;
-    left:2px;}
+    position: relative;
+    bottom: 10px;
+    left:10px;}
 #nom {
     font-weight:bold;}
 #prix {
@@ -202,38 +203,35 @@ img:hover {
     width: 128px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: 1px solid pink;}
+    border: 1px solid orange;}
 #TopLogement {
     display: flex;
     flex-direction: column;
-    margin: 20px;
     margin-top: 75px;
     border: 1px solid green;}
 .top {
     display: flex;
     flex-direction: row;
     text-align: left;
-    vertical-align: middle;
     height: 135px;
-    margin: 15px;
+    margin: 20px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid black;}
 .boximg2 {
     display:flex;
     flex-direction: row;
-    width: auto;
-    margin: 0px;
+    width: 300px;
     padding:1px;
     border-radius: 10px;
-    border: 1px solid green;}
+    border: 1px solid pink;}
 .logs2 {
     text-align: left;
     vertical-align: middle;}
 .ts21 {
     position: absolute;
     margin-top: 7px;
-    margin-left:30px;}
+    margin-left:25px;}
 
 
                                                             /*SECTION 3*/
