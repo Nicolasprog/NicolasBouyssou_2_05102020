@@ -169,7 +169,7 @@ img:hover {
     bottom: 1px;
     text-align: left;
     background-color: white;
-    height:55px;
+    height:60px;
     width: 235px;
     padding-left: 10px;
     padding-top: 5px;
@@ -188,6 +188,8 @@ img:hover {
     font-weight:bold;}
 #prix {
     font-style:italic;}
+#note {
+    color: blue;}
 
                                                             /*SECTION 2*/
 #boxsection2 {
@@ -234,6 +236,7 @@ img:hover {
     text-align: left;
     vertical-align: initial;
     padding-left: 10px;
+    padding-top: 10px;
     margin-top:2px;
     border: 1px solid red;}
 .ts21 {
