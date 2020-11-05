@@ -89,24 +89,37 @@ a {
 #th2 {
     margin-left: 55px;}
 
-#bfiltres {      /*Filtres selon envie*/
+#boxf {      /*Filtres selon envie*/
     display: flex;
     flex-direction: row;
     height: 20px;
-    margin: 30px;
-    margin-left: 65px;
-    border: 1px solid black}
+    margin:30px;
+    margin-left: 65px;}
+
 #filtres {
     display:flex;
     flex-direction: row;
     height: 20px;
     width: 60px;
     border: 1px solid blue;}
+.positionf {
+    display:flex;
+    flex-direction: row;
+    height:20px;
+    padding:2px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid green;}
 #choix {
     display:inline-block;
-    margin-left:20px;
+    margin-left:0px;
     height:20px;
     border: 1px solid red}
+#boxf i {
+    color:blue;
+    height:20px;
+    border-radius: 5px;
+    border: 1px solid black;}
 
 header p {
     margin-top: 2px;
