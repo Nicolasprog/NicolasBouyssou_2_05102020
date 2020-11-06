@@ -311,11 +311,10 @@ img:hover {
     border-radius: 10px;
     border: 1px solid green;}
 #boxsection3 img {
-    display: flex;
     border-top-left-radius: 10px;
     border-top-right-radius:10px ;
     border: 1px solid pink}
-#Activités {
+#Activites {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -337,24 +336,18 @@ img:hover {
     display:flex;
     flex-direction: column;
     border:1px solid black;}
-.img31.img34 {
-    display:flex;
-    flex-direction: column;
-    height:445px;
-    width:100px;}
-.img32 {
+.img31,.img34 {
     display: flex;
     flex-direction: column;
+    height:445px;
+    width:300px;}
+.img32 {
     height:240px;
     width:300px;}
 .img33 {
-    display:flex;
-    flex-direction: column;
     height:165px;
     width:300px;}
 .img35 {
-    display: flex;
-    flex-direction: column;
     height:195px;
     width:300px;}
 .img36 {
