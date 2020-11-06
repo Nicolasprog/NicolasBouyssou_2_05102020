@@ -304,53 +304,73 @@ img:hover {
 #boxsection3 {
     display:flex;
     flex-direction: row;
-    height: 300px;
+    height: 530px;
     width: 1440px;
-    margin-top: 80px;
+    margin-top: 50px;
     background-color:white;
     border-radius: 10px;
     border: 1px solid green;}
 #boxsection3 img {
-    display:flex;
-    height: 100px;
-    width: 150px;
+    display: flex;
     border-top-left-radius: 10px;
     border-top-right-radius:10px ;
     border: 1px solid pink}
 #Activités {
     display: flex;
-    margin:20px;
-    border: 1px solid blue;}
-.boximg3 {
-    display:flex;
     flex-direction: column;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
     margin: 10px;
-    padding: 1px;
-    height:130px;
-    width:152px;}
+    margin-top:50px;
+    padding:1px;
+    border: 1px solid blue;}
 .nom3 {
-    display:flex;
+    display:inline-block;
     flex-direction: row;
     position: relative;
-    bottom: 0px;
-    height:30px;
+    text-align: left;
+    padding-left: 7px;;
+    bottom: 0%;
+    height:56px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px;
     border: 1px solid green;}
+.colis3 .col2s3 {
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;}
+.img31.img34 {
+    display:flex;
+    flex-direction: column;
+    height:445px;
+    width:300px;}
+.img32 {
+    display: flex;
+    flex-direction: column;
+    height:240px;
+    width:300px;}
+.img33 {
+    display:flex;
+    flex-direction: column;
+    height:165px;
+    width:300px;}
+.img35 {
+    display: flex;
+    flex-direction: column;
+    height:195px;
+    width:300px;}
+.img36 {
+    display: flex;
+    flex-direction: column;
+    height:210px;
+    width:300px;}
 .ts31 {
     display: inline-block;
-    height: 30px;
-    width: 300px;
-    top:2px;
-    left:2px;}
+    margin-left:50px;
+    height: 30px;}
 
                                                                         /*FOOTER*/
 
 footer {    /*Bloc FOOTER*/
-    height:215px;
+    height:210px;
     width: auto;
     margin:0px;
     border:1px solid black;}
