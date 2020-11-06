@@ -160,6 +160,7 @@ img:hover {
                                                                         /*SECTION 1*/
 #boxsection1 {
     display: flex;
+    flex-direction: column;
     height: 625px;   /*625px*/
     width: 880px;   /*880px*/
     border-radius: 10px;
@@ -179,8 +180,7 @@ img:hover {
     display:flex;
     flex-wrap: wrap;
     width:auto;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin: 20px;
     border: 1px solid green;}
 .boximg1 {
     display:flex;
@@ -207,19 +207,17 @@ img:hover {
     border-bottom-right-radius: 10px;
     border: 1px solid black;}
 .ts11 {
-    display: inline-block;
+    display: flex;
     position: static;
     margin-top:10px;
-    margin-left:10px;
-    height: 50px;
-    border:1px solid black;}       
+    margin-left:20px;
+    height: 50px;}       
 .ts12 {
-    display:inline-block;
+    display:flex;
     position: static;
     margin-bottom: 10px;
-    margin-left:10px;
-    height:50px;
-    border: 1px solid black;}
+    margin-left:20px;
+    height:50px;}
 #nom {
     font-weight:bold;}
 #prix {
