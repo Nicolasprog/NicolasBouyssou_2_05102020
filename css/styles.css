@@ -153,10 +153,6 @@ section {
     display:flex;
     margin:20px;}
 
-img:hover {
-    transform:scale(1.01);
-    transition: 0.2 all;}
-
                                                                         /*SECTION 1*/
 #boxsection1 {
     display: flex;
@@ -322,11 +318,7 @@ img:hover {
     padding:1px;
     border: 1px solid blue;}
 .nom3 {
-    display:flex;
-    flex-direction: row;
-    position: relative;
-    text-align: left;
-    padding-left: 7px;;
+    padding-left: 7px;
     bottom: 0%;
     height:56px;
     border-bottom-left-radius: 10px;
@@ -351,8 +343,6 @@ img:hover {
     height:195px;
     width:300px;}
 .img36 {
-    display: flex;
-    flex-direction: column;
     height:210px;
     width:300px;}
 .ts31 {
