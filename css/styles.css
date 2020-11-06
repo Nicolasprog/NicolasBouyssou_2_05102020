@@ -323,7 +323,7 @@ img:hover {
     padding:1px;
     border: 1px solid blue;}
 .nom3 {
-    display:inline-block;
+    display:flex;
     flex-direction: row;
     position: relative;
     text-align: left;
@@ -341,7 +341,7 @@ img:hover {
     display:flex;
     flex-direction: column;
     height:445px;
-    width:300px;}
+    width:100px;}
 .img32 {
     display: flex;
     flex-direction: column;
