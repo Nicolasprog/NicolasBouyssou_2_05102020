@@ -284,12 +284,12 @@ img:hover {
     position: relative;
     bottom:0px;}
 .ts21 {
-    display: inline-block;
+    display: flex;
     float: left;
     margin-top: 5px;
     margin-left:25px;}
 .icon {
-    display: inline-block;
+    display: flex;
     float: right;
     font-size: 27px;
     height:30px;
