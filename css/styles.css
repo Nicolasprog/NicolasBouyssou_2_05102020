@@ -80,7 +80,7 @@ a {
     width: 80px;
     text-transform: none;
     color: white;
-    background-color: blue;
+    background-color: #0065fc;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border: 1px solid black;}
@@ -154,7 +154,7 @@ section {
     width: 880px;   /*880px*/
     border-radius: 10px;
     margin-left: 50px;
-    background-color:grey;
+    background-color:#b0b0b0;
     border: 1px solid black;}
 #boxsection1 img {
     display:flex;
@@ -212,13 +212,13 @@ section {
 #prix {
     font-style:italic;}
 #note {
-    color: blue;}
+    color: #0065fc;}
 
                                                             /*SECTION 2*/
 #boxsection2 {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: #b0b0b0;
     margin-left:50px;
     height:625px;
     width: 420px;
@@ -300,14 +300,14 @@ section {
 #Activites {
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    margin-top:50px;
     padding:1px;
     border: 1px solid blue;}
 .nom3 {
+    position: static;
+    bottom: 1px;
     padding-left: 7px;
-    bottom: 0%;
     height:56px;
+    background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px;
     border: 1px solid green;}
@@ -328,7 +328,7 @@ section {
     width:300px;}
 .img35 {
     height:195px;
-    width:300px;}
+    max-width:300px;}
 .img36 {
     height:210px;
     width:300px;}
@@ -342,7 +342,6 @@ section {
 footer {    /*Bloc FOOTER*/
     height:210px;
     width: auto;
-    margin:0px;
     border:1px solid black;}
 #Contact {      /*Bloc de fin*/
     display:flex;
@@ -353,7 +352,7 @@ footer {    /*Bloc FOOTER*/
     padding-right: 300px;
     padding-top: 60px;
     height:215px;
-    background-color:grey;}
+    background-color:#b0b0b0;}
 
 @media all and (max-device-widht: 768px) {                      /*Règle CSS pour écran */
     }
