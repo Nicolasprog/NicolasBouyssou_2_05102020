@@ -95,6 +95,7 @@ a {
 #boxf {      /*Filtres selon envie*/
     display: flex;
     flex-direction: row;
+    font-weight: bold;
     height: 20px;
     margin:30px;
     margin-left: 65px;}
