@@ -247,11 +247,11 @@ section {
     padding-left: 10px;
     padding-top: 10px;
     border: 1px solid red;}
-#inlinetext {
+.inlinetext {
     display:inline-block;
     margin-left: 37px;}
-.icon {
-    display: inline-block;
+.inlinetext i {
+    margin-right:40px;
     font-size: 20px;}
 
                                                             /*SECTION 3*/
