@@ -159,22 +159,23 @@ section {
     background-color:#b0b0b0;
     border: 1px solid black;}
 #section1 img {
-    height:114px;
-    width: 238px;
+    height:115px;
+    width: 240px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px ;
     border: 1px solid blue;}
 #Logements {
     display:flex;
     flex-wrap: wrap;
+    height:430px;
     border: 1px solid green;}
 .boximg1 {
     display:flex;
     flex-direction: column;
     height:200px;
-    width: fit-content;
+    width: 242px;
     border-radius: 10px;
-    margin: 10px;
+    margin:10px ;
     padding:2px;
     background-color: white;
     box-shadow: 5px 3px 3px grey;
@@ -184,7 +185,7 @@ section {
     flex-direction: column;
     background-color: white;
     height:80px;
-    width: 240px;
+    width: 225px;
     padding:8px;
     border: 1px solid black;}
 .ts11 {
