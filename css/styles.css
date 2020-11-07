@@ -188,9 +188,8 @@ section {
     padding:8px;
     border: 1px solid black;}
 .ts11 {
-    display: flex;
     position: static;
-    margin-top:10px;
+    margin-top:20px;
     margin-left:20px;}       
 .ts12 {
     display:flex;
@@ -241,10 +240,13 @@ section {
     border: 1px solid red;}
 .inlinetext {
     display:inline-block;
-    margin-left: 37px;}
+    margin-top: 20px;
+    margin-left: 40px;}
 .inlinetext i {
+    display: flex;
+    float: right;
     margin-right:40px;
-    font-size: 20px;}
+    font-size: 27px;}
 
                                                             /*SECTION 3*/
 #section3 {
