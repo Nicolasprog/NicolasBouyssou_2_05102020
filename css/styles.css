@@ -11,13 +11,15 @@
         }
 
 #bloc_page {
+    margin-left: 55px;
+    margin-right: 55px;
     width:1440px;   /*1440px*/
     height:1884px;}     /*1884px*/
 
                                                                             /* HEADER */
 header {
-    height: 380px;
-    border: 1px solid blue}
+    height: 180px;
+    border:1px solid blue;}
 
 #logoGauche {           /*Applique le logo a gauche selon la maquette*/
     position:absolute;
@@ -31,21 +33,19 @@ nav {                /*Zone navigation en haut a droite*/
     flex-direction: row;
     list-style-type: none;
     position: relative;
+    width: 490px;
     border: 1px solid green;}
 nav ul {
-    display:flex;
     list-style-type: none;
-    position: absolute;
+    position: relative;
     right: 0px;
     top: 0px;
-    margin:0px;
+    margin: 0%;
     border: 1px solid black;}
 nav li {
     display:flex;
-    align-content: center;
     margin:65px;
-    margin-right: 75px;
-    margin-top: 50px;;
+    margin-right: 70px;
     border: 1px solid red;}
 
 nav a#nav1 {
@@ -61,7 +61,7 @@ a {
 #boxr {
     display: flex;
     align-content: center;
-    margin-left: 50px;
+    margin-left: 15px;
     height: 40px;
     width: 320px;
     border:1px solid red}
@@ -86,11 +86,10 @@ a {
     border: 1px solid black;}
 
 #th1 {
-    margin-top:130px;
-    margin-left: 55px;
+    margin-left: 15px;
     margin-bottom: 10px;}
 #th2 {
-    margin-left: 55px;}
+    margin-left: 15px;}
 
 #boxf {      /*Filtres selon envie*/
     display: flex;
@@ -98,7 +97,7 @@ a {
     font-weight: bold;
     height: 20px;
     margin:30px;
-    margin-left: 65px;}
+    margin-left: 15px;}
 #filtres {
     display:flex;
     flex-direction: row;
@@ -117,9 +116,9 @@ a {
     text-align: center;
     align-self: center;
     height:100%;
-    padding-top: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     width: auto;
     border: 1px solid red}
 #boxf i {
@@ -133,19 +132,14 @@ a {
 
 header p {
     margin-top: 2px;
-    margin-left: 65px;}
+    margin-left: 15px;}
+.info-icon {
+    margin-left: 15px;}
 
                                                                         /*BODY*/
 
-body {
-    margin:0px;}
-
-section {
-    display:flex;}
-
 #boxmiddle {
-    display:flex;
-    margin:20px;}
+    display:flex;}
 
                                                                         /*SECTION 1*/
 #section1 {
@@ -154,7 +148,6 @@ section {
     height: 625px;   /*625px*/
     width: 880px;   /*880px*/
     border-radius: 10px;
-    margin-left: 50px;
     box-shadow: 5px 3px 3px grey;
     background-color:#b0b0b0;
     border: 1px solid black;}
@@ -164,7 +157,9 @@ section {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px ;
     border: 1px solid blue;}
-#Logements {
+#section1 h2 {
+    margin-left: 40px;}
+#container-tuiles1 {
     display:flex;
     flex-wrap: wrap;
     height:430px;
@@ -250,7 +245,7 @@ section {
     border: 1px solid green;}
 #section3 h2 {
     margin-left: 50px;}
-#container-tuiles {
+#container-tuiles3 {
     display:flex;
     flex-direction: row;
     margin-left: 20px;
