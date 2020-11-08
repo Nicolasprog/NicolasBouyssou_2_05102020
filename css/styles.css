@@ -11,14 +11,13 @@
         }
 
 #bloc_page {
-    margin-left: 55px;
-    margin-right: 55px;
     width:1440px;   /*1440px*/
     height:1884px;}     /*1884px*/
 
                                                                             /* HEADER */
 header {
     height: 180px;
+    margin: 0%;
     border:1px solid blue;}
 
 #logoGauche {           /*Applique le logo a gauche selon la maquette*/
@@ -32,27 +31,26 @@ nav {                /*Zone navigation en haut a droite*/
     display:flex;
     flex-direction: row;
     list-style-type: none;
-    position: relative;
-    width: 490px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    margin-right: 75px;
+    width: auto;
     border: 1px solid green;}
 nav ul {
     list-style-type: none;
-    position: relative;
-    right: 0px;
-    top: 0px;
     margin: 0%;
     border: 1px solid black;}
 nav li {
     display:flex;
     margin:65px;
-    margin-right: 70px;
     border: 1px solid red;}
 
 nav a#nav1 {
-    color: #deebff;
+    color: #106ffd;
     border-top: 1px solid blue;}
 nav a#nav2 {
-    color:grey;}
+    color:#101010;}
 nav a#nav3 {
     color:#0065FC;}
 a {
@@ -61,7 +59,7 @@ a {
 #boxr {
     display: flex;
     align-content: center;
-    margin-left: 15px;
+    margin-left: 55px;
     height: 40px;
     width: 320px;
     border:1px solid red}
@@ -86,10 +84,10 @@ a {
     border: 1px solid black;}
 
 #th1 {
-    margin-left: 15px;
+    margin-left: 55px;
     margin-bottom: 10px;}
 #th2 {
-    margin-left: 15px;}
+    margin-left: 55px;}
 
 #boxf {      /*Filtres selon envie*/
     display: flex;
@@ -97,7 +95,7 @@ a {
     font-weight: bold;
     height: 20px;
     margin:30px;
-    margin-left: 15px;}
+    margin-left: 65px;}
 #filtres {
     display:flex;
     flex-direction: row;
@@ -129,17 +127,14 @@ a {
     padding:2px;
     border-radius: 50%;
     border: 1px soid black;}
-
-header p {
-    margin-top: 2px;
-    margin-left: 15px;}
 .info-icon {
-    margin-left: 15px;}
+    margin-left: 55px;}
 
                                                                         /*BODY*/
 
 #boxmiddle {
-    display:flex;}
+    display:flex;
+    margin: 50px;}
 
                                                                         /*SECTION 1*/
 #section1 {
@@ -195,7 +190,7 @@ header p {
     display: flex;
     flex-direction: column;
     background-color: #b0b0b0;
-    margin-left:50px;
+    margin-left:40px;
     height:625px;
     width: 420px;
     box-shadow: 5px 3px 3px grey;
@@ -240,15 +235,24 @@ header p {
     height: 540px;
     width: 1440px;
     margin-top: 65px;
+    margin-left: 55px;
     background-color:white;
     border-radius: 10px;
     border: 1px solid green;}
-#section3 h2 {
-    margin-left: 50px;}
+#section3 img {
+    height: 100%;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;}
+.img31 {height:390px;}
+.img32 {height:180px;}
+.img33 {height:110px;}
+.img34 {height:390px;}
+.img35 {height:140px;}
+.img36 {height:150px;}
 #container-tuiles3 {
     display:flex;
     flex-direction: row;
-    margin-left: 20px;
     width: fit-content;}
 .bloc-tuile {
     height:fit-content;
@@ -258,28 +262,23 @@ header p {
     flex-direction: column;
     height:fit-content;
     width: 300px;
-    margin: 30px;
+    margin: 40px;
     margin-top: 0%;
+    margin-left: 10px;
     box-shadow: 5px 3px 3px grey;
     border-radius: 10px;
     border: 1px solid blue;}
-.description3 {
-    height:56px;
+.Description3 {
+    height:55px;
     max-width: 300px;
+    margin-left: 20px;
+    text-align: left;
+    vertical-align: middle;
     font-weight: bold;
-    background-color: white;}
-.description3 span {
-    padding: 10px;}
-#section3 img {
-    height: 100%;
-    width: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius:10px;}
-.img31,.img34 {height:390px;}
-.img32 {height:180px;}
-.img33 {height:110px;}
-.img35 {height:140px;}
-.img36 {height:150px;}
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;}
+
                                                                         /*FOOTER*/
 
 footer {    /*Bloc FOOTER*/
