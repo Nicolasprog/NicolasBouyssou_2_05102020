@@ -28,18 +28,22 @@ header {
     top: 50px;}
 
 nav {                /*Zone navigation en haut a droite*/
-    display:flex;
-    float: right;
-    margin-right: 25px;
     border:1px solid green;}
 nav ul {
     display: flex;
+    flex-direction: row;
+    float: right;
     border: 1px solid black;}
 nav li {
     list-style-type: none;
     margin-left: 70px;
     margin-top: 50px;
+    margin-right: 50px;
     border: 1px solid red;}
+#border-top {
+    height:1px;
+    width:150px;
+    border: 1px solid blue;}
 nav a#nav1 {
     color: #DEEBFF;}
 nav a#nav2 {
