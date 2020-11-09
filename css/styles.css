@@ -54,6 +54,7 @@ a {
     align-content: center;
     height: 40px;
     width: 320px;
+    margin-top:20px;
     border:1px solid red}
 #boxr i {
     background-color: gainsboro;
@@ -88,21 +89,21 @@ a {
     flex-direction: row;
     height: 20px;
     width: 60px;
-    border: 1px solid grey}
+    border: 1px solid black;}
 .positionf {
     display:flex;
     flex-direction: row;
     height:25px;
     margin-left: 20px;
     border-radius: 20px;
-    border: 1px solid green;}
+    border: 1px solid #d9d9d9;}
 #choix {
     display:flex;
     text-align: center;
     align-self: center;
     height:100%;
     padding-top: 5px;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-right: 5px;
     width: auto;
     border: 1px solid red}
@@ -111,7 +112,6 @@ a {
     background-color: cornflowerblue;
     height:21px;
     width: 20px;
-    padding:2px;
     border-radius: 50%;
     border: 1px soid black;}
 
@@ -122,7 +122,8 @@ i {
                                                                         /*BODY*/
 
 #boxmiddle {
-    display:flex;}
+    display:flex;
+    margin-top:40px;}
 
                                                                         /*SECTION 1*/
 #section1 {
@@ -168,6 +169,7 @@ i {
     border: 1px solid black;}
 #nom {
     margin: 0%;
+    margin-top:10px;
     margin-left:10px;
     font-weight:bold;}
 #prix {
@@ -175,7 +177,6 @@ i {
     margin-left:10px;}
 #note {
     margin: 0%;
-    margin:;
     color: #0065fc;}
 
                                                             /*SECTION 2*/
