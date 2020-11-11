@@ -29,34 +29,41 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
 
-            <div id="boxr">
+            <div id="search">
                 <!--Boite Rechercher !-->
                 <form method="post" action="traitement.php">
                     <label for="lieu"></label>
                     <i class="fas fa-map-marker-alt"></i><input type="text" name="lieu" id="lieu"
                         placeholder="Marseille, France">
-                    <a id="Rechercher" href="Rechercher">Rechercher</a>
+                    <a id="Rechercher" href="Rechercher"><span>Rechercher</span></a>
                 </form>
             </div>
 
-            <div id="boxf">
+            <div id="filters"><p>Filtre :</p>
                 <!--Boite Filtre-->
-                <div id="filtres">Filtres :</div>
                 <div class="positionf">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <div id="choix"></i>Economique</div>
+                    <span class="fa-stack fa-1x">
+                        <i class="fas fa-money-bill-wave fa-stack-1x"></i>
+                    </span>
+                    <p>Economique</p>
                 </div>
                 <div class="positionf">
-                    <i class="fas fa-child"></i>
-                    <div id="choix">Familial</div>
+                    <span class="fa-stack fa-1x">
+                        <i class="fas fa-child fa-stack-1x"></i>
+                    </span>
+                    <p>Familial</p>
                 </div>
                 <div class="positionf">
+                    <span class="fa-stack fa-1x">
                     <i class="fas fa-heart"></i>
-                    <div id="choix">Romantique</div>
+                    </span>
+                    <p>Romantique</p>
                 </div>
                 <div class="positionf">
+                    <span class="fa-stack fa-1x">
                     <i class="fas fa-dog"></i>
-                    <div id="choix">Animaux Autorisés</div>
+                </span>
+                    <p>Animaux Autorisés</p>
                 </div>
             </div>
            <p><i class="fas fa-info-circle"></i><em> Plus de 500 logements sont disponibles dans cette ville</em></p>
