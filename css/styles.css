@@ -114,6 +114,7 @@ input::placeholder {
     color: #0065fc;}
 
 .sous-filters {
+    margin-left: 15px;
     font-style: italic;}
 .sous-filters i {
     color:white;
@@ -164,7 +165,7 @@ input::placeholder {
     background-color: white;
     height:80px;
     padding-top:10px;
-    padding-left:10px;
+    padding-left:15px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 1px solid black;}
@@ -205,9 +206,9 @@ input::placeholder {
     box-shadow: 5px 3px 3px #f1f1f1;
     border: 1px solid black;}
 .Description2 {
-    width:100%;
-    padding-top:10px;
-    padding-left: 10px;
+    width:70%;
+    padding-top:20px;
+    padding-left: 20px;
     border: 1px solid red;}
 .inline-text-icon {
     display:inline-block;
