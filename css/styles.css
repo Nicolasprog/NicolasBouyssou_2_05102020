@@ -10,6 +10,7 @@
          url('../Fonts/raleway-v18-latin-regular.svg') format('svg'); /* Legacy iOS */
         }
 
+                                                                    /*Modif Global*/
 #bloc_page {
     width:1440px;   /*1440px*/
     height:1884px;
@@ -41,11 +42,11 @@ nav li {
     border: 1px solid red;}
 a {
     text-decoration: none;}
-nav a#section1 {
-    color: #DEEBFF;}
-nav a#section3 {
+#current1 {
+    color: #106ffc;}
+#current2 {
     color:#bfbfbf;}
-nav a#nav3 {
+#current3 {
     color:#0065fc;}
 
 
