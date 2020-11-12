@@ -80,21 +80,27 @@ h1 {
 
 #filters {      /*Filtres selon envie*/
     display: flex;
+    flex-direction: row;
     font-weight: bold;
     height: 50px;
     padding-left: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px solid black;}
+    border: 1px soid black;}
 .positionf {
     display: flex;
     height: 50px;
     margin-left: 50px;
     border-radius: 30px;
     border: 1px solid #d9d9d9;}
+.positionf p {
+    margin-left:15px;
+    margin-right: 20px;}
 .fa-stack {
-    align-items: center;
-    vertical-align: middle;
+    padding-top:10px;
+    height: 40px;
+    width: 50px;;
+    border-radius: 50%;
     background-color: #DEEBFF;
     color: #0065fc;}
 
