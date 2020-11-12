@@ -132,7 +132,6 @@ input::placeholder {
     height: 625px;   /*625px*/
     width: 875px;   /*875px*/
     border-radius: 10px;
-    box-shadow: 5px 3px 3px grey;
     background-color:#f2f2f2;}
 #section1 img {
     height:115px;
@@ -158,23 +157,25 @@ input::placeholder {
     width: 240px;
     padding:2px;
     margin: 15px;
-    box-shadow: 5px 3px 3px grey;
+    box-shadow: 5px 3px 3px #f1f1f1;
     border-radius: 10px;
     border:1px solid brown;}
 .Description1 {
-    display: block;
-    flex-direction: column;
     background-color: white;
     height:80px;
     padding-left:10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     border: 1px solid black;}
-#nom {
-    margin: 0%;
+.nom {
+    margin:0%;
     margin-top:10px;
     font-weight:bold;}
-#prix {
+.prix {
     margin: 0%;}
-#note {
+.prix span {
+    font-weight: bold;}
+.note {
     color: #0065fc;}
 .far {
     color:#d9d9d9;}
@@ -187,7 +188,6 @@ input::placeholder {
     margin-left:40px;
     height:625px;
     width: 420px;
-    box-shadow: 5px 3px 3px grey;
     border-radius: 10px;}
 #section2 img {
     height:130px;
@@ -202,7 +202,7 @@ input::placeholder {
     margin: auto;
     padding:2px;
     border-radius: 10px;
-    box-shadow: 5px 3px 3px grey;
+    box-shadow: 5px 3px 3px #f1f1f1;
     border: 1px solid black;}
 .Description2 {
     display:block;
@@ -248,11 +248,12 @@ input::placeholder {
     width: 300px;
     margin-right: 40px;
     margin-bottom: 40px;
-    box-shadow: 5px 3px 3px grey;
+    box-shadow: 5px 3px 3px #f1f1f1;
     border-radius: 10px;
     border: 1px solid blue;}
 .Description3 {
     height:55px;
+    padding-left: 20px;
     font-weight: bold;
     background-color: white;
     border-bottom-right-radius: 10px;
