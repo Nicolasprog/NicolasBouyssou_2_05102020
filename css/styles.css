@@ -8,25 +8,25 @@
          url('../Fonts/raleway-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../Fonts/raleway-v18-latin-regular.svg') format('svg'); /* Legacy iOS */
         }
-@media screen and (min-device-width: 768px) {                      /*Règle CSS pour desktop */
+@media screen and (min-device-width: 768px) {                           /*Début MédiaQueries pour desktop */
 
-                                                                    /*Modif Global*/
+                                                                            /*Modif Global*/
 #bloc_page {
     width:1440px;   /*1440px*/
-    height:1884px;
+    height:1884px;      /*1884px*/
     margin-left: 55px;
-    margin-right: 50px;}     /*1884px*/
+    margin-right: 50px;}     
 
-                                                                            /* HEADER */
+                                                                                /* HEADER */
 header {
     height: 120px;}
 
-#logoGauche {           /*Applique le logo a gauche selon la maquette*/
+#logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
     position:absolute; 
     top:50px;
     left: 65px;}
 
-nav{                /*Zone navigation en haut a droite*/
+nav{                                                                   /*Zone navigation en haut a droite*/
     margin-right: 30px;
     border:1px soid green;}
 nav ul {
@@ -48,7 +48,8 @@ a {
     color:#bfbfbf;}
 #current3 {
     color:#0065fc;}
-
+                                                                                    /* FIN HEADER */
+                                                                            /*Zone de transition header body*/
 #title {
     margin-bottom: 20px;}
 #title h1 {
@@ -57,7 +58,7 @@ a {
 #title p {
     margin-top: 5px;}
 
-#search {
+#search {                                                                               /*Search*/
     height: 50px;
     width: fit-content;
     margin-top:20px;
@@ -92,7 +93,7 @@ a {
     text-align: center;}
 
 
-#filters {      /*Filtres selon envie*/
+#filters {                                                                      /*Filtres selon envie*/
     display: flex;
     flex-direction: row;
     font-weight: bold;
@@ -130,14 +131,14 @@ a {
     background-color: #0065fc;
     border: 1px solid #DEEBFF;
     border-radius: 50%;}
-
-                                                                        /*BODY*/
+                                                                        /*Fin de zone de transition*/
+                                                                                 /*BODY*/
 
 #boxmiddle {
     display:flex;
     margin-top:40px;}
 
-                                                                        /*SECTION 1*/
+                                                                            /*SECTION 1*/
 #section1 {
     height: 625px;   /*625px*/
     width: 880px;   /*875px*/
@@ -199,7 +200,7 @@ a {
 .far {
     color:#d9d9d9;}
 
-                                                            /*SECTION 2*/
+                                                                                /*SECTION 2*/
 #section2 {
     display: flex;
     flex-direction: column;
@@ -238,7 +239,7 @@ a {
     margin-right:40px;
     font-size: 27px;}
 
-                                                            /*SECTION 3*/
+                                                                                /*SECTION 3*/
 #section3 {
     height: 550px;
     width: 1440px;
@@ -273,12 +274,11 @@ a {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;}
 
-                                                                        /*FOOTER*/
+                                                                                /*FOOTER*/
 
 footer {    /*Bloc FOOTER*/
     height:210px;
-    width: auto;
-    border:1px solid black;}
+    width: auto;}
 #Contact {      /*Bloc de fin*/
     display:flex;
     flex-direction: row;
@@ -288,8 +288,23 @@ footer {    /*Bloc FOOTER*/
     padding-top: 60px;
     height:215px;
     background-color:#f2f2f2;}
+}                                                                       /*Fin MédiaQueries Desktop*/
+                                                                                /*Fin BODY*/
+@media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
+    #bloc-page {
+        height:4525px;
+        width:375px;
+        margin-left:20px;
+        margin-right:20px;}
+    header {
+        height:100px;
+        width:auto;
+        border: 1px solid blue;}
+    footer {
+        height:485px;
+        width:auto;}
+    #Contact {
+        display:flex;
+        flex-direction: column;
+        padding-left:30px;}
 }
-
-@media screen and (max-device-width: 768px) {                      /*Règle CSS pour mobile */
-
-    }
