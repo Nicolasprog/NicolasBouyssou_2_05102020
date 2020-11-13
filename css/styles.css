@@ -283,11 +283,16 @@ footer {    /*Bloc FOOTER*/
 #Footer {      /*Bloc de fin*/
     display:flex;
     flex-direction: row;
-    background-color:#f2f2f2;}
+    background-color:#f2f2f2;
+    padding-top:60px;}
+.Apropos {
+    margin-left:50px;}
+.Noshébergements {
+    margin-left:220px;}
+.Assistance {
+    margin-left:300px;}
 .footer-bold {
     font-weight: bold;}
-.footer-bold p {
-    margin-top:2px;}
 }                                                                       /*Fin MédiaQueries Desktop*/
                                                                                 /*Fin BODY*/
 @media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
