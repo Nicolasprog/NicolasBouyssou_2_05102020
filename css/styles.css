@@ -1,5 +1,4 @@
-/* raleway-regular-latin */
-@font-face{
+@font-face{                                                 /* raleway-regular-latin */
     font-family: 'Raleway';
     src: local('') 
          url('../Fonts/raleway-v18-latin-regular.eot'), /* IE9 Compat Modes */
@@ -9,6 +8,7 @@
          url('../Fonts/raleway-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../Fonts/raleway-v18-latin-regular.svg') format('svg'); /* Legacy iOS */
         }
+@media screen and (min-device-width: 768px) {                      /*Règle CSS pour desktop */
 
                                                                     /*Modif Global*/
 #bloc_page {
@@ -288,7 +288,8 @@ footer {    /*Bloc FOOTER*/
     padding-top: 60px;
     height:215px;
     background-color:#f2f2f2;}
+}
 
-@media all and (max-device-widht: 768px) {                      /*Règle CSS pour écran */
+@media screen and (max-device-width: 768px) {                      /*Règle CSS pour mobile */
 
     }
