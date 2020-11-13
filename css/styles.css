@@ -33,12 +33,12 @@ nav ul {
     display: flex;
     flex-direction: row;
     float: right;
-    margin:0%;
+    margin-right:75px;
     border: 1px solid black;}
 nav li {
     list-style-type: none;
     margin-top:50px;
-    margin-right: 70px;
+    margin-left: 70px;
     border: 1px solid red;}
 a {
     text-decoration: none;}
@@ -49,8 +49,11 @@ a {
 #current3 {
     color:#0065fc;}
 
+#title {
+    margin-bottom: 50px;
+    height: 40px;}
 h1 {
-    width: 60%;}
+    width: 100%;}
 
 #search {
     height: 50px;
@@ -97,7 +100,7 @@ input::placeholder {
 .positionf {
     display: flex;
     height: 48px;
-    margin-left: 30px;
+    margin-left: 40px;
     border-radius: 30px;
     border: 2px solid #d9d9d9;}
 .positionf p {
@@ -132,7 +135,7 @@ input::placeholder {
 #section1 {
     height: 625px;   /*625px*/
     width: 875px;   /*875px*/
-    border-radius: 10px;
+    border-radius: 20px;
     background-color:#f2f2f2;}
 #section1 img {
     height:115px;
@@ -158,7 +161,7 @@ input::placeholder {
     width: 240px;
     padding:2px;
     margin: 15px;
-    box-shadow: 5px 3px 3px #f1f1f1;
+    box-shadow: 5px 3px 3px #f2f2f2;
     border-radius: 10px;
     border:1px solid brown;}
 .Description1 {
@@ -189,7 +192,7 @@ input::placeholder {
     margin-left:40px;
     height:625px;
     width: 420px;
-    border-radius: 10px;}
+    border-radius: 20px;}
 #section2 img {
     height:130px;
     width: 128px;
@@ -203,19 +206,17 @@ input::placeholder {
     margin: auto;
     padding:2px;
     border-radius: 10px;
-    box-shadow: 5px 3px 3px #f1f1f1;
+    box-shadow: 5px 3px 3px #f2f2f2;
     border: 1px solid black;}
 .Description2 {
-    width:70%;
+    width:160px;
     padding-top:20px;
     padding-left: 20px;
     border: 1px solid red;}
 .inline-text-icon {
-    display:inline-block;
     margin-top: 20px;
     margin-left: 40px;}
 .inline-text-icon i {
-    display: flex;
     float: right;
     margin-right:40px;
     font-size: 27px;}
@@ -225,8 +226,7 @@ input::placeholder {
     height: 550px;
     width: 1440px;
     margin-top: 65px;
-    background-color:white;
-    border-radius: 10px;}
+    background-color:white;}
 #section3 img {
     height: 100%;
     width: 300px;
@@ -240,17 +240,14 @@ input::placeholder {
 .img36 {height:150px;}
 #container-tuiles3 {
     display:flex;}
-.bloc-tuile {
-    border:1px solid black;}
 #Tuiles3 {
     display: flex;
     flex-direction: column;
     width: 300px;
     margin-right: 40px;
     margin-bottom: 40px;
-    box-shadow: 5px 3px 3px #f1f1f1;
-    border-radius: 10px;
-    border: 1px solid blue;}
+    box-shadow: 5px 3px 3px #f2f2f2;
+    border-radius: 10px;}
 .Description3 {
     height:55px;
     padding-left: 20px;
