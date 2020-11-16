@@ -27,11 +27,11 @@ header {
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
     position: relative; 
     top:50px;
-    left: 65px;}
+    left: 0px;}
 
 nav {                                                                 /*Zone navigation en haut a droite*/
     position: absolute;
-    right:115px;
+    right:90px;
     top:0px;
     border:1px soid green;}
 nav ul {
@@ -75,16 +75,17 @@ a {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;}
 #lieu {
-    padding-left:5px;
+    padding-left:20px;
+    width:235px;
     height:45px;}
 ::placeholder {
-    font-size:1.1em;
+    font-size:1.3em;
     font-weight: bold;}
 #Rechercher {
     display: table;
     float:right;
     height: 50px;
-    width:100px;
+    width:120px;
     text-transform: none;
     color: white;
     background-color: #0065fc;
@@ -102,13 +103,13 @@ a {
     flex-direction: row;
     font-weight: bold;
     height: 50px;
-    padding-left: 10px;
+    padding-left:10px;
     margin-top: 30px;
     border: 1px solid black;}
 .positionf {
     display: flex;
     height: 50px;
-    margin-left: 35px;
+    margin-left: 25px;
     border-radius: 40px;
     border: 2px solid #d9d9d9;}
 .positionf p {
@@ -124,7 +125,7 @@ a {
 
 .sous-filters {
     margin-top:40px;
-    margin-left: 15px;
+    margin-left: 10px;
     font-style: italic;}
 .sous-filters i {
     color:white;
@@ -279,22 +280,23 @@ a {
                                                                                 /*FOOTER*/
 
 footer {    /*Bloc FOOTER*/
-    height:220px;
-    width:1440px;
-    background-color: #f2f2f2;}
-#Footer {      /*Bloc de fin*/
     display:flex;
-    flex-direction: row;
-    background-color:#f2f2f2;
-    padding-top:60px;}
-.Apropos {
-    margin-left:50px;}
-.Noshébergements {
-    margin-left:220px;}
-.Assistance {
-    margin-left:300px;}
-.footer-bold {
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;}
+footer span {
     font-weight: bold;}
+.Rubriques {
+    margin-top:25px;}
+.Rubriques p {
+    margin-top:0%;
+    margin-bottom:10px;}
+.A.propos {
+    margin-left:50px;}
+.Nos.hébergements {
+    margin-left:230px;}
+.Assistance {
+    margin-left:290px;}
 }                                                                       /*Fin MédiaQueries Desktop*/
                                                                                 /*Fin BODY*/
 @media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
