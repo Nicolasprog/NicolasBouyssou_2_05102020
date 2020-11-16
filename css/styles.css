@@ -143,7 +143,6 @@ a {
 
                                                                             /*SECTION 1*/
 #section1 {
-    height: 625px;   /*625px*/
     width: 880px;   /*875px*/
     border-radius: 20px;
     background-color:#f2f2f2;}
@@ -170,7 +169,7 @@ a {
     padding:2px;
     margin-right: 25px;
     margin-bottom: 30px;
-    box-shadow: 5px 3px 3px #f2f2f2;
+    box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description1 {
     height:80px;
@@ -214,7 +213,7 @@ a {
     margin: auto;
     padding:3px;
     border-radius: 10px;
-    box-shadow: 5px 3px 3px #f2f2f2;}
+    box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
     width:160px;
     padding-left: 20px;;}
@@ -239,7 +238,6 @@ a {
 
                                                                                 /*SECTION 3*/
 #section3 {
-    height: 550px;
     margin-top: 65px;}
 #section3 img {
     height: 100%;
@@ -255,14 +253,13 @@ a {
 #container-tuiles3 {
     display:flex;}
 #Tuiles3 {
-    display: flex;
     flex-direction: column;
     margin-right: 45px;
-    margin-bottom: 40px;
-    box-shadow: 5px 3px 3px #f2f2f2;
+    margin-bottom: 45px;
+    box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
-    height:55px;
+    height:37px;
     padding-left: 20px;
     font-weight: bold;}
 
@@ -294,7 +291,7 @@ footer span {
     width:auto;        /*375px*/} 
 body {
     font-family:'Raleway';
-    margin:auto;}      
+    margin:0%;}      
                                                                                         /* HEADER */
 header {
     height:100px;
@@ -492,15 +489,15 @@ a {
     color:#d9d9d9;}     
                                                                                         /*SECTION 3*/
 #section3 {
-    height: 1400px;
-    width: 335px;
+    display:flex;
+    flex-direction: column;
     background-color:white;}
 #section3 img {
-    height: 190px;
+    height: 135px;
     width: 335px;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
-#container-tuile {
+#container-tuiles3 {
     display: flex;
     flex-direction: column;}
 #Tuiles3 {
@@ -508,8 +505,8 @@ a {
     flex-direction: column;
     height:190px;
     width: 335px;
-    margin-bottom: 10px;
-    box-shadow: 5px 3px 3px #f2f2f2;
+    margin-bottom: 25px;
+    box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
     height:55px;
