@@ -32,8 +32,7 @@ header {
 nav {                                                                 /*Zone navigation en haut a droite*/
     position: absolute;
     right:115px;
-    top:0px;
-    margin:0%;}
+    top:0px;}
 ul {
     display: flex;
     margin:0%;}
@@ -291,10 +290,11 @@ footer span {
                                                                                 /*Fin BODY*/
 @media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
 #bloc-page {
-    height:4525px;      /*4525px*/
-    width:auto;        /*375px*/
-    margin-left:10px;
-    margin-right:10px;}       
+    height:auto;      /*4525px*/
+    width:auto;        /*375px*/} 
+body {
+    font-family:'Raleway';
+    margin:auto;}      
                                                                                         /* HEADER */
 header {
     height:100px;
@@ -414,42 +414,29 @@ a {
         
 #boxmiddle {
     display:flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top:40px;}
         
                                                                                     /*SECTION 2*/
 
 #section2 {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
-    margin-left:40px;
-    height:580px;
-    width: 375px;}
+    margin:0%;
+    background-color: #f2f2f2;}
 #section2 img {
-    height:130px;
-    width: 128px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;}
+    height:140px;}
 .Tuiles2 {
-    display:inline-flex;
-    flex-direction: row;
-    background-color: white;
-    width:340px;
-    margin: auto;
-    padding:2px;
-    border-radius: 10px;
-    box-shadow: 5px 3px 3px #f2f2f2;
-    border: 1px solid black;}
+    padding:5px;
+    margin-top:5px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
-    width:160px;
-    padding-top:20px;
-    padding-left: 20px;
-    border: 1px solid red;}
+    width:155px;}
 .Description2 i {
     margin-right:2px;}
 .inline-text-icon {
-    margin-top: 20px;
+    margin-right: 20px;
     margin-left: 20px;}
 .inline-text-icon i {
     float: right;
@@ -457,9 +444,8 @@ a {
     font-size: 27px;}
 
 #section1 {
-    height: 1415px;   /*1415px*/
-    width: 375px;   /*375px*/
-    border-radius: 20px;
+    height: auto;   /*1415px*/  
+    width:min-content;
     background-color:#f2f2f2;}
 #section1 img {
     height:115px;
@@ -467,35 +453,28 @@ a {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;}
 #section1 h2 {
-    margin-top:40px;
-    margin-left:20px;}
-#section1 h3 {
-    margin-top: 0%;
     margin-left:20px;
-    margin-bottom: 30px;}
+    margin-top:40px;}
+#section1 h3 {
+    margin-left:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+#container-tuiles1 {
+    flex-direction: column;
+    width:fit-content;
+    margin:0%;}
 .Tuiles1 {
-    display:flex;
-    flex-direction: column;
-    background-color: white;
-    height:200px;
-    width: 340px;
-    padding:2px;
-    margin-right: 20px;
+    padding:5px;
+    width:fit-content;
+    margin-left:20px;
     margin-bottom: 10px;
-    box-shadow: 5px 3px 3px #f2f2f2;
-    border-radius: 10px;}
+    box-shadow: 5px 3px 3px #d9d9d9;}
 .Description1 {
-    display:flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: white;
     height:80px;
     padding-top:10px;
-    padding-left:15px;
-    padding-bottom: 5px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border:1px solid black;}
+    padding-left:15px;}
 .Description1 i {
     margin-right: 2px;}
 .nom {
