@@ -490,8 +490,7 @@ a {
                                                                                         /*SECTION 3*/
 #section3 {
     display:flex;
-    flex-direction: column;
-    background-color:white;}
+    flex-direction: column;}
 #section3 img {
     height: 135px;
     width: 335px;
@@ -509,7 +508,7 @@ a {
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
-    height:55px;
+    height:50px;
     padding-left: 20px;
     font-weight: bold;
     background-color: white;
