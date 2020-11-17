@@ -22,17 +22,16 @@ body {
 
                                                                                 /* HEADER */
 header {
-    height: 120px;}
+    display:flex;
+    justify-content: space-between;}
 
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
-    position: relative; 
-    top:50px;
+    margin-top:50px;
     left: 0px;}
 
-nav {                                                                 /*Zone navigation en haut a droite*/
-    position: absolute;
-    right:115px;
-    top:0px;}
+nav {                                                                    /*Zone navigation en haut a droite*/
+    top:0px;
+    right:115px;}
 ul {
     display: flex;
     margin:0%;}
@@ -42,10 +41,7 @@ li {
     margin-left: 70px;
     border:1px solid red;}
 .border-top {
-    text-align: center;
-    align-content: center;
-    width:150px;
-    padding-right: 20px;
+    padding-right: 30px;
     border-top:1px solid #106ffc;}
 a {
     text-decoration: none;}
