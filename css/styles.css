@@ -282,19 +282,19 @@ footer span {
 }                                                                       /*Fin MédiaQueries Desktop*/
                                                                                 /*Fin BODY*/
 @media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
+
 #bloc-page {
-    height:auto;      /*4525px*/
-    width:auto;        /*375px*/} 
+    align-content: center;
+    height:auto;      /*height 4525px*/
+    width:auto;        /*width 375px*/} 
 body {
     font-family:'Raleway';
     margin:0%;}      
                                                                                         /* HEADER */
 header {
-    height:100px;
-    width:335px;
+    display:flex;
     border: 1px solid blue;}
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
-    position: absolute; 
     top:35px;
     left: 25px;}
        
@@ -326,23 +326,17 @@ a {
 #title p {
     margin-top: 5px;}
         
-#search {         
-    vertical-align: auto;                                                                      /*Search*/
-    height: 50px;
-    width: 335px;
+#search {                                                                                 /*Search*/
     margin-top:40px;
     border:1px solid red}
 #search i {
     float: left;
     background-color: #f2f2f2;
+    text-align: center;
     height: 50px;
     width: 45px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;}
-#lieu {
-    padding-left:5px;
-    height:45px;
-    width:230px;}
 ::placeholder {
     font-size:1.1em;
     font-style: bold;}
@@ -352,13 +346,16 @@ a {
     height: 50px;
     width:50px;
     text-transform: none;
-    color: white;
-    background-color: #0065fc;
     border-radius: 7px;}
-#Rechercher span {
-    display:table-cell;
+#Rechercher p {
+    display:none;
     font-size: 1.1em;
     vertical-align: middle;
+    text-align: center;}
+#Rechercher i {
+    display:table-cell;
+    background-color: #0065fc;
+    font-size: 1.5em;
     text-align: center;}
         
         
@@ -485,27 +482,24 @@ a {
     color:#d9d9d9;}     
                                                                                         /*SECTION 3*/
 #section3 {
-    display:flex;
-    flex-direction: column;}
+    width:auto;}
 #section3 img {
     height: 135px;
     width: 335px;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
 #container-tuiles3 {
-    display: flex;
     flex-direction: column;}
 #Tuiles3 {
-    display: flex;
-    flex-direction: column;
+    display: block;
     height:190px;
     width: 335px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
     height:50px;
-    padding-left: 20px;
+    padding-left: 15px;
     font-weight: bold;
     background-color: white;
     border-bottom-right-radius: 10px;
