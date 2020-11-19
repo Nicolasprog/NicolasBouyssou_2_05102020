@@ -8,7 +8,7 @@
          url('../Fonts/raleway-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../Fonts/raleway-v18-latin-regular.svg') format('svg'); /* Legacy iOS */
         }
-@media screen and (min-device-width: 768px) {                           /*Début MédiaQueries pour desktop */
+@media screen and (min-width: 768px) {                           /*Début MédiaQueries pour desktop */
 
                                                                             /*Modif Global*/
 #bloc_page {                /*1440px*/
@@ -287,7 +287,6 @@ footer span {
 @media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
 
 #bloc-page {
-    align-content: center;
     height:auto;      /*height 4525px*/
     width:auto;        /*width 375px*/} 
 body {
@@ -296,17 +295,19 @@ body {
                                                                                         /* HEADER */
 header {
     display:flex;
-    border: 1px solid blue;}
+    justify-content: space-between;}
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
-    top:35px;
-    left: 25px;}
+    margin-top:35px;
+    margin-left: 25px;}
        
 nav{                                                                   /*Zone navigation en haut a droite*/
+
     border:1px soid green;}
 nav ul {
     margin:0%;
     border: 1px solid black;}
 nav li {
+    flex-direction: row;
     list-style-type: none;
     border: 1px solid red;}
 #nav3 {
@@ -322,15 +323,21 @@ a {
                                                                                             /* FIN HEADER */
                                                                                     /*Zone de transition header body*/
 #title {
+    margin-left: 20px;
+    padding-right: 8%;
+    font-size: 0.9em;
     margin-bottom: 20px;}
 #title h1 {
     margin-bottom: 0%;
-    width: 375px;}
+    width: auto;}
 #title p {
     margin-top: 5px;}
         
 #search {                                                                                 /*Search*/
+    margin-left: 20px;;
     margin-top:40px;
+    height:50px;
+    width: fit-content;
     border:1px solid red}
 #search i {
     float: left;
@@ -343,6 +350,8 @@ a {
 ::placeholder {
     font-size:1.1em;
     font-style: bold;}
+input {
+    height:45px;}
 #Rechercher {
     display: table;
     float:right;
@@ -357,9 +366,11 @@ a {
     text-align: center;}
 #Rechercher i {
     display:table-cell;
+    color: white;
     background-color: #0065fc;
     font-size: 1.5em;
-    text-align: center;}
+    text-align: center;
+    border-radius: 8px;}
         
         
 #filters {                                                                      /*Filtres selon envie*/
@@ -368,15 +379,15 @@ a {
     justify-content: space-around;
     font-weight: bold;
     height: 230px;
-    width:335px;
-    padding-left: 10px;
+    width:auto;
+    margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 40px;
     border: 1px solid black;}
 .positionf {
      display: flex;
-     flex-direction: row;
-     justify-content: space-around;
+     justify-content: space-between;
+     margin-bottom: 10px;
     height: 50px;
     width:fit-content;
     border-radius: 40px;
@@ -396,6 +407,7 @@ a {
         
 .sous-filters {
     margin-top:35px;
+    margin-left: 20px;
     font-style: italic;}
 .sous-filters i {
     color:white;
@@ -408,38 +420,62 @@ a {
 #boxmiddle {
     display:flex;
     flex-direction: column-reverse;
+    vertical-align: middle;
     margin-top:40px;}
         
                                                                                     /*SECTION 2*/
 
 #section2 {
-    margin:0%;
+    display:flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:35px;
     background-color: #f2f2f2;}
-#section2 img {
-    height:140px;}
-.Tuiles2 {
-    padding:5px;
-    margin-top:5px;
-    margin-left:20px;
-    margin-right:20px;
-    margin-bottom: 10px;
-    box-shadow: 5px 3px 3px #d9d9d9;}
-.Description2 {
-    width:155px;}
-.Description2 i {
-    margin-right:2px;}
 .inline-text-icon {
+    margin-top:40px;
     margin-right: 20px;
     margin-left: 20px;}
 .inline-text-icon i {
     float: right;
     margin-right:20px;
     font-size: 27px;}
+#section2 img {
+    height:135px;
+    width:130px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;}
+.Tuiles2 {
+    display:inline-flex;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px #d9d9d9;}
+.Description2 {
+    padding-left:20px;
+    width:155px;}
+.Description2 i {
+    font-size: 0.9em;
+    color:#0065fc;
+    margin-right:2px;}
+.Description2 span {
+    font-weight: bold;}
+.nom2 {
+    margin-bottom: 2px;
+    font-weight:bold;}
+.prix2 {
+    margin-top:5px;}
+.note2 {
+    margin-top:30px;
+    font-size: 0.8em;
+    color: #0065fc;}
 
 #section1 {
-    height: auto;   /*1415px*/  
-    width:min-content;
-    background-color:#f2f2f2;}
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;}
 #section1 img {
     height:115px;
     width: 340px;
@@ -454,44 +490,46 @@ a {
     margin-bottom: 20px;}
 #container-tuiles1 {
     flex-direction: column;
-    width:fit-content;
     margin:0%;}
 .Tuiles1 {
     padding:5px;
-    width:fit-content;
-    margin-left:20px;
+    width:340px;
     margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description1 {
-    flex-direction: column;
-    background-color: white;
     height:80px;
     padding-top:10px;
-    padding-left:15px;}
+    padding-left:20px;}
 .Description1 i {
     margin-right: 2px;}
-.nom {
+.nom1 {
     margin:0%;
     font-weight:bold;}
-.prix {
-    margin: 0%;}
-.prix span {
+.prix1 {
+    margin-bottom: 0%;
+    margin-top:5px;}
+.prix1 span {
     font-weight: bold;}
-.note {
-    margin-top:5px;
+.note1 {
+    margin-top:10px;
     font-size: 0.8em;
     color: #0065fc;}
 .far {
-    color:#d9d9d9;}     
+    color:#d9d9d9;}  
                                                                                         /*SECTION 3*/
 #section3 {
-    width:auto;}
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center;}
 #section3 img {
     height:135px;
-    width: 335px;}
-.img31 .img32 .img33 .img34 .img35 .img36 {
-    height:135px;
-    display: none;}
+    width: 335px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;}
+.img31img32img33img34img35img36 {
+    height:135px;}
 #container-tuiles3 {
     flex-direction: column;}
 #Tuiles3 {
@@ -501,16 +539,17 @@ a {
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
-    height:50px;
-    font-weight: bold;
-    background-color: white;}
+    height:40px;
+    font-weight: bold;}
 .Description3 p {
-    margin-left: 15px;}
+    margin-left: 10px;}
              
 footer {    /*Bloc FOOTER*/
     display:flex;
     flex-direction: column;
     padding-left:50px;
+    padding-top:45px;
+    margin-top: 50px;
     background-color: #f2f2f2;}
 footer span {
     font-weight: bold;}
