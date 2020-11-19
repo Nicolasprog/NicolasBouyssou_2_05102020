@@ -287,8 +287,7 @@ footer span {
 @media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
 
 #bloc-page {
-    height:auto;      /*height 4525px*/
-    width:auto;        /*width 375px*/} 
+    width:auto;        /*width 0 > 768pxpx*/} 
 body {
     font-family:'Raleway';
     margin:0%;}      
@@ -297,11 +296,11 @@ header {
     display:flex;
     justify-content: space-between;}
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
+    font-size: 1.2em;
     margin-top:35px;
     margin-left: 25px;}
        
 nav{                                                                   /*Zone navigation en haut a droite*/
-
     border:1px soid green;}
 nav ul {
     margin:0%;
@@ -419,7 +418,6 @@ input {
 #boxmiddle {
     display:flex;
     flex-direction: column-reverse;
-    vertical-align: middle;
     margin-top:40px;}
         
                                                                                     /*SECTION 2*/
@@ -474,20 +472,16 @@ input {
     color: #0065fc;}
 
 #section1 {
+    display:flex;
     flex-direction: column;
     margin:auto;}
+#section1 h2 {
+    margin-top:40px;}
 #section1 img {
     height:115px;
     width: 340px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;}
-#section1 h2 {
-    margin-left:20px;
-    margin-top:40px;}
-#section1 h3 {
-    margin-left:20px;
-    margin-top: 20px;
-    margin-bottom: 20px;}
 #container-tuiles1 {
     flex-direction: column;
     margin:0%;}
@@ -517,11 +511,16 @@ input {
     font-size: 0.8em;
     color: #0065fc;}
 .far {
-    color:#d9d9d9;}  
+    color:#d9d9d9;}
+#section1 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;}  
                                                                                         /*SECTION 3*/
 #section3 {
-    width:100%;
-    margin:auto;}
+    display:flex;
+    flex-direction: column;}
+#section3 h2 {
+    padding-left: 20px;}
 #section3 img {
     height:135px;
     width: 100%;
@@ -534,6 +533,7 @@ input {
 #Tuiles3 {
     height:190px;
     width: 335px;
+    margin: auto;
     margin-bottom: 20px;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
@@ -543,7 +543,7 @@ input {
 .Description3 p {
     margin-left: 10px;}
              
-footer {    /*Bloc FOOTER*/
+footer {                                                                    /*Bloc FOOTER*/
     display:flex;
     flex-direction: column;
     padding-left:50px;
