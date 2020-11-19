@@ -39,9 +39,11 @@ li {
     list-style-type: none;
     margin-top:50px;
     margin-left: 70px;}
-.border-top {
+.menu1 {
     padding-right: 30px;
     border-top:1px solid #106ffc;}
+.menu12 {
+    display: inline-flex;}
 a {
     text-decoration: none;}
 #current1 {
@@ -117,7 +119,7 @@ a {
     margin-left:10px;
     margin-right: 20px;}
 .positionf span {
-    height:42px;
+    height:40px;
     width:50px;
     padding-top: 10px;
     border-radius: 50%;
@@ -301,16 +303,34 @@ header {
     margin-left: 25px;}
        
 nav{                                                                   /*Zone navigation en haut a droite*/
+    width:100%;
     border:1px soid green;}
 nav ul {
-    margin:0%;
-    border: 1px solid black;}
+    margin:0%;}
 nav li {
     flex-direction: row;
     list-style-type: none;
-    border: 1px solid red;}
-#nav3 {
-    margin-top: 40px;}
+    margin: 0%;}
+.menu12 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    height: 50px;
+    width:auto;
+    vertical-align: middle;
+    border:1px solid black;}
+.menu1 {
+    margin-right: 35px;
+    margin-left: 40px;
+    font-size: 1.3em;}
+.menu2 {
+    margin-left: 35px;
+    margin-right: 40px;
+    font-size: 1.3em;}
+.menu3 {
+    float: right;
+    margin-right:20px;}
 a {
     text-decoration: none;}
 #current1 {
@@ -371,29 +391,21 @@ input {
         
 #filters {                                                                      /*Filtres selon envie*/
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-flow: wrap;
     font-weight: bold;
-    margin:auto;
     margin-left:20px;
-    margin-right: 20px;
     margin-top: 40px;
-    margin-bottom: 40px;
     border: 1px solid black;}
 .positionf {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     height: 50px;
     width:fit-content;
-    border-radius: 40px;
+    border-radius:40px;
     border: 2px solid #d9d9d9;}
 .positionf p {
-    vertical-align: middle;
     font-size: 1.1em;
-    margin-left:15px;
-    margin-right: 20px;}
+    margin:15px;}
 .positionf span {
     height: 40px;
     width: 50px;
@@ -541,13 +553,11 @@ input {
     height:50px;
     padding-left:20px;
     font-weight: bold;}
-.Description3 p {
-    margin-left: 10px;}
              
 footer {                                                                    /*Bloc FOOTER*/
     display:flex;
     flex-direction: column;
-    padding-left:50px;
+    padding-left:20px;
     padding-top:45px;
     margin-top: 50px;
     background-color: #f2f2f2;}
