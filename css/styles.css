@@ -314,12 +314,9 @@ nav li {
     margin: 0%;}
 .menu12 {
     display: flex;
-    justify-content: center;
     position: relative;
-    top: 130px;
+    top: 75px;
     height: 50px;
-    width:auto;
-    vertical-align: middle;
     border:1px solid black;}
 .menu1 {
     margin-right: 35px;
@@ -330,7 +327,7 @@ nav li {
     margin-right: 40px;
     font-size: 1.3em;}
 .menu3 {
-    float: right;
+    float:right;
     margin-right:20px;}
 a {
     text-decoration: none;}
@@ -344,7 +341,8 @@ a {
                                                                                     /*Zone de transition header body*/
 #title {
     margin-left: 20px;
-    padding-right: 8%;
+    padding-right: 2%;
+    margin-top: 40px;
     font-size: 0.9em;
     margin-bottom: 20px;}
 #title h1 {
