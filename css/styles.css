@@ -334,26 +334,26 @@ a {
     margin-top: 5px;}
         
 #search {                                                                                 /*Search*/
-    margin-left: 20px;;
+    margin: auto;
     margin-top:40px;
     height:50px;
-    width: fit-content;
+    width: 338px;
     border:1px solid red}
 #search i {
     float: left;
     background-color: #f2f2f2;
     text-align: center;
     height: 50px;
-    width: 45px;
+    width: 50px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;}
 ::placeholder {
     font-size:1.1em;
     font-style: bold;}
 input {
+    width:230px;
     height:45px;}
 #Rechercher {
-    display: table;
     float:right;
     height: 50px;
     width:50px;
@@ -365,7 +365,6 @@ input {
     vertical-align: middle;
     text-align: center;}
 #Rechercher i {
-    display:table-cell;
     color: white;
     background-color: #0065fc;
     font-size: 1.5em;
@@ -474,6 +473,7 @@ input {
 
 #section1 {
     flex-direction: column;
+    margin:auto;
     padding-left: 20px;
     padding-right: 20px;}
 #section1 img {
@@ -520,12 +520,11 @@ input {
     color:#d9d9d9;}  
                                                                                         /*SECTION 3*/
 #section3 {
-    margin-left: 20px;
-    margin-right: 20px;
-    align-content: center;}
+    margin-left: 25%;
+    margin-right:25%;}
 #section3 img {
     height:135px;
-    width: 335px;
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
 .img31img32img33img34img35img36 {
