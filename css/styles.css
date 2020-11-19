@@ -446,8 +446,10 @@ input {
     border-bottom-left-radius:10px;}
 .Tuiles2 {
     display:inline-flex;
+    height:145px;
+    width:335px;
+    margin:auto;
     padding:5px;
-    margin-top:5px;
     margin-bottom: 10px;
     background-color: white;
     border-radius: 10px;
@@ -473,9 +475,7 @@ input {
 
 #section1 {
     flex-direction: column;
-    margin:auto;
-    padding-left: 20px;
-    padding-right: 20px;}
+    margin:auto;}
 #section1 img {
     height:115px;
     width: 340px;
@@ -520,8 +520,8 @@ input {
     color:#d9d9d9;}  
                                                                                         /*SECTION 3*/
 #section3 {
-    margin-left: 25%;
-    margin-right:25%;}
+    width:100%;
+    margin:auto;}
 #section3 img {
     height:135px;
     width: 100%;
@@ -538,7 +538,7 @@ input {
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
-    height:40px;
+    height:50px;
     font-weight: bold;}
 .Description3 p {
     margin-left: 10px;}
