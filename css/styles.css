@@ -284,7 +284,7 @@ footer span {
     margin-left:290px;}
 }                                                                       /*Fin MédiaQueries Desktop*/
                                                                                 /*Fin BODY*/
-@media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
+@media screen and (max-device-width: 768px) {                                    /*Règle CSS pour mobile */
 
 #bloc-page {
     width:auto;        /*width 0 > 768pxpx*/} 
@@ -474,7 +474,9 @@ input {
 #section1 {
     display:flex;
     flex-direction: column;
-    margin:auto;}
+    width:100%;
+    padding-left: 20px;
+    background-color: #d9d9d9;}
 #section1 h2 {
     margin-top:40px;}
 #section1 img {
@@ -539,6 +541,7 @@ input {
     border-radius: 10px;}
 .Description3 {
     height:50px;
+    padding-left:20px;
     font-weight: bold;}
 .Description3 p {
     margin-left: 10px;}
