@@ -69,6 +69,7 @@ a {
 #search i {
     float: left;
     background-color: #f2f2f2;
+    text-align: center;
     height: 50px;
     width: 45px;
     border-top-left-radius: 10px;
@@ -90,11 +91,13 @@ a {
     background-color: #0065fc;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;}
-#Rechercher span {
+#Rechercher p {
     display:table-cell;
     font-size: 1.1em;
     vertical-align: middle;
     text-align: center;}
+#Rechercher i {
+    display:none;}
 
 
 #filters {                                                                      /*Filtres selon envie*/
@@ -484,14 +487,14 @@ a {
 #section3 {
     width:auto;}
 #section3 img {
-    height: 135px;
-    width: 335px;
-    border-top-left-radius: 10px;
-    border-top-right-radius:10px;}
+    height:135px;
+    width: 335px;}
+.img31 .img32 .img33 .img34 .img35 .img36 {
+    height:135px;
+    display: none;}
 #container-tuiles3 {
     flex-direction: column;}
 #Tuiles3 {
-    display: block;
     height:190px;
     width: 335px;
     margin-bottom: 20px;
@@ -499,27 +502,26 @@ a {
     border-radius: 10px;}
 .Description3 {
     height:50px;
-    padding-left: 15px;
     font-weight: bold;
-    background-color: white;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;}
+    background-color: white;}
+.Description3 p {
+    margin-left: 15px;}
              
-footer {                                                                    /*FOOTER*/
-    position: relative;
-    bottom: 0px;
-    height:485px;
-    width: 375px;
-    background-color: #f2f2f2;}
-#Footer {
+footer {    /*Bloc FOOTER*/
     display:flex;
     flex-direction: column;
-    border:1px solid black;}
-.footer-bold {
-    margin-top: 50px;
-    margin-bottom: 15px;}
-.footer-bold p {
-    margin:0%;}
-.footer-bold span {
-    font-weight:bold;}                                                    /*Fin FOOTER*/
+    padding-left:50px;
+    background-color: #f2f2f2;}
+footer span {
+    font-weight: bold;}
+.Rubriques {
+    margin-top:20px;}
+.A.propos {
+    margin-left:0px;}
+.Nos.hébergements {
+    margin-left: 0%;
+    margin-top:40px}
+.Assistance {
+    margin-left: 0%;
+    margin-top:40px;}                                                 /*Fin FOOTER*/
 }                                                                       /*Fin MediaQueries Mobile*/
