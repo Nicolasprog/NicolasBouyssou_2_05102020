@@ -425,8 +425,7 @@ input {
 #section2 {
     display:flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    width:100%;
     padding-bottom:35px;
     background-color: #f2f2f2;}
 .inline-text-icon {
@@ -475,9 +474,9 @@ input {
     display:flex;
     flex-direction: column;
     width:100%;
-    padding-left: 20px;
     background-color: #d9d9d9;}
 #section1 h2 {
+    padding-left: 20px;
     margin-top:40px;}
 #section1 img {
     height:115px;
@@ -490,7 +489,8 @@ input {
 .Tuiles1 {
     padding:5px;
     width:340px;
-    margin-bottom: 10px;
+    margin:auto;
+    margin-bottom: 15px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 5px 3px 3px #d9d9d9;}
@@ -515,6 +515,7 @@ input {
 .far {
     color:#d9d9d9;}
 #section1 h3 {
+    padding-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;}  
                                                                                         /*SECTION 3*/
