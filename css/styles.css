@@ -302,8 +302,7 @@ body {
     margin:0%;}      
                                                                                         /* HEADER */
 header {
-    display:flex;
-    justify-content: space-between;}
+    height:auto;}
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
     font-size: 1.2em;
     margin-top:35px;
@@ -323,15 +322,18 @@ nav li {
     height: 50px;
     border:1px solid black;}
 .menu1 {
+    float: left;
     margin-right: 35px;
     margin-left: 40px;
     font-size: 1.3em;}
 .menu2 {
+    float: right;
     margin-left: 35px;
     margin-right: 40px;
     font-size: 1.3em;}
 .menu3 {
-    float:right;
+    position: relative;
+    margin-top:35px;
     margin-right:20px;}
 a {
     text-decoration: none;}
