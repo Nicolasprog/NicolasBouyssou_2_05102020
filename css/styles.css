@@ -39,11 +39,9 @@ li {
     list-style-type: none;
     margin-top:50px;
     margin-left: 70px;}
-.menu1 {
+.border-top {
     padding-right: 30px;
     border-top:1px solid #106ffc;}
-.menu12 {
-    display: inline-flex;}
 a {
     text-decoration: none;}
 #current1 {
@@ -148,7 +146,7 @@ a {
 
                                                                             /*SECTION 1*/
 #section1 {
-    width: 880px;   /*875px*/
+    width: 75%;   /*875px*/
     border-radius: 20px;
     background-color:#f2f2f2;}
 #section1 img {
@@ -204,11 +202,11 @@ a {
     background-color: #f2f2f2;
     margin-left:40px;
     height:625px;
-    width: 420px;
+    width: 35%;
     border-radius: 20px;}
 #section2 img {
     height:130px;
-    width: 128px;
+    width: 35%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;}
 .Tuiles2 {
@@ -249,7 +247,7 @@ a {
     margin-top: 65px;}
 #section3 img {
     height: 100%;
-    width: 300px;
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
 .img31 {height:390px;}
@@ -259,9 +257,19 @@ a {
 .img35 {height:140px;}
 .img36 {height:150px;}
 #container-tuiles3 {
-    display:flex;}
-#Tuiles3 {
-    flex-direction: column;
+    display:flex;
+    width:100%;}
+.bloc-column1 {
+    width:25%;}
+.bloc-column2 {
+    width:25%;}
+.Tuiles3 {
+    margin-right: 45px;
+    margin-bottom: 45px;
+    width:25%;
+    box-shadow: 5px 3px 3px #d9d9d9;
+    border-radius: 10px;}
+.bloc-Tuiles3 {
     margin-right: 45px;
     margin-bottom: 45px;
     box-shadow: 5px 3px 3px #d9d9d9;
