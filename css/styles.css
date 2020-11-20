@@ -290,7 +290,7 @@ footer span {
     margin-left:20%;} /*290*/
 }                                                                       /*Fin MédiaQueries Desktop*/
                                                                                 /*Fin BODY*/
-@media screen and (max-device-width: 768px) {                                    /*Règle CSS pour mobile */
+@media screen and (max-width: 768px) {                                    /*Règle CSS pour mobile */
 
 #bloc-page {
     width:auto;        /*width 0 > 768pxpx*/} 
