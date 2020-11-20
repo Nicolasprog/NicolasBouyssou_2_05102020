@@ -142,7 +142,7 @@ a {
 
                                                                             /*SECTION 1*/
 #section1 {
-    width: 75%;   /*875px*/
+    width: 75%; 
     border-radius: 20px;
     background-color:#f2f2f2;}
 #section1 img {
@@ -155,8 +155,7 @@ a {
     margin-left:40px;}
 #section1 h3 {
     margin-top: 0%;
-    margin-left:40px;
-    margin-bottom: 40px;}
+    margin-left:40px;}
 #container-tuiles1 {
     display:flex;
     flex-wrap: wrap;
@@ -284,11 +283,11 @@ footer span {
     margin-top:0%;
     margin-bottom:10px;}
 .A.propos {
-    margin-left:50px;}
+    margin-left:5%;} /*50*/
 .Nos.hébergements {
-    margin-left:230px;}
+    margin-left:15%;} /*230*/
 .Assistance {
-    margin-left:290px;}
+    margin-left:20%;} /*290*/
 }                                                                       /*Fin MédiaQueries Desktop*/
                                                                                 /*Fin BODY*/
 @media screen and (max-device-width: 768px) {                                    /*Règle CSS pour mobile */
