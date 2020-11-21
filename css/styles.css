@@ -42,6 +42,7 @@ li {
 a {
     text-decoration: none;}
 li a#current1 {
+    margin-top:0%;
     border-top: 1px solid #106ffc;
     color: #106ffc;}
 li a#current2 {
@@ -217,12 +218,12 @@ li a#current3 {
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
-    width:50%;    /*160*/
+    width:55%;    /*160*/
     padding-left: 15px;}
 .Description2 i {
     margin-right:2px;}
 .nom2 {
-    margin-bottom: 2px;
+    margin-bottom: 0%;
     font-weight:bold;}
 .prix2 {
     margin-top:5px;}
