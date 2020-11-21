@@ -165,6 +165,7 @@ li a#current3 {
     margin-right: 3%; /*30*/
     margin-bottom: 30px;    /*30*/
     width:28%;
+    object-fit: cover;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description1 {
@@ -199,6 +200,8 @@ li a#current3 {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;}
 .container-tuiles2 {
+    display:flex;
+    flex-direction: column;
     width:100%;}
 .Tuiles2 {
     display:inline-flex;
@@ -207,6 +210,7 @@ li a#current3 {
     margin-left: 9%;  /*35*/
     margin-bottom: 8%;    /*35*/
     padding:5px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
@@ -258,6 +262,7 @@ li a#current3 {
     margin-right: 45px;
     margin-bottom: 45px;
     width:25%;
+    object-fit: cover;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .bloc-Tuiles3 {
@@ -422,8 +427,6 @@ input {
                                                                                     /*SECTION 2*/
 
 #section2 {
-    display:flex;
-    flex-direction: column;
     padding-bottom:35px;
     background-color: #f2f2f2;}
 .inline-text-icon {
@@ -434,15 +437,18 @@ input {
     float: right;
     margin-right:20px;
     font-size: 27px;}
+.container-tuiles2 {
+    display:flex;
+    flex-direction: column;}
 #section2 img {
     height:140px;
     width:130px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-bottom-left-radius:10px;}
 .Tuiles2 {
     display:inline-flex;
-    height:140px;
-    width:340px;
+    width:90%;    /*340*/
     margin:auto;
     padding:5px;
     margin-bottom: 10px;
@@ -469,23 +475,23 @@ input {
     color: #0065fc;}
 
 #section1 {
-    display:flex;
-    flex-direction: column;
     width:100%;}
 #section1 h2 {
     padding-left: 20px;
     margin-top:40px;}
 #section1 img {
+    object-fit: cover;
     height:115px;
-    width: 340px;
+    width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;}
 #container-tuiles1 {
+    display:flex;
     flex-direction: column;
     margin:0%;}
 .Tuiles1 {
     padding:5px;
-    width:340px;
+    width:90%;
     margin:auto;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -493,7 +499,7 @@ input {
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description1 {
     height:80px;
-    padding-top:10px;
+    padding-top:5px;
     padding-left:20px;}
 .Description1 i {
     margin-right: 2px;}
@@ -524,6 +530,7 @@ input {
 #section3 img {
     height:135px;
     width: 100%;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
 .img31img32img33img34img35img36 {
