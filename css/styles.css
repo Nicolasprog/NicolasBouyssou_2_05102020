@@ -102,11 +102,14 @@ li a#current3 {
 
 
 #filters {                                                                      /*Filtres selon envie*/
-    display: flex;
+    display: inline-flex;
     font-weight: bold;
     height:50px;
+    width:90%;
     padding-left:10px;
     margin-top: 30px;}
+.bloc-filtre1.bloc-filtre2 {
+    display:none;}
 .positionf {
     display: flex;
     margin-left: 20px;
