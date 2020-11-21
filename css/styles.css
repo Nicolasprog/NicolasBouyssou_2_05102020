@@ -346,36 +346,36 @@ a {
     margin: auto;
     margin-top:40px;
     height:50px;
-    width: 346px;}
+    width: 90%;}
+::placeholder {
+    font-size:1.1em;
+    font-style: bold;}
 #search i {
     float: left;
     background-color: #f2f2f2;
     text-align: center;
     height: 35px;
-    width: 50px;
+    width: 12%;    /*45*/
     padding-top:15px;
     font-size: 1.2em;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;}
-::placeholder {
-    font-size:1.1em;
-    font-style: bold;}
-input {
+#lieu {
     padding-left: 10px;
-    width:230px;
+    width:72.9%;    /*230*/
     height:45px;
     border:none;
-    border-top:1px solid #f2f2f2;
-    border-bottom:1px solid #f2f2f2;}
+    border-top:2px solid #f2f2f2;
+    border-bottom:2px solid #f2f2f2;}
 #Rechercher {
     float:right;
-    height: 50px;
-    width:50px;
+    width:12%;     /*50*/
     text-transform: none;
     border-radius: 7px;}
 #Rechercher p {
     display:none;}
 #Rechercher i {
+    width:100%;
     color: white;
     background-color: #0065fc;
     text-align: center;
@@ -384,21 +384,30 @@ input {
         
 #filters {                                                                      /*Filtres selon envie*/
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     font-weight: bold;
-    margin-left:20px;
+    margin:auto;
+    width:90%;
     margin-top: 40px;
     border: 1px solid black;}
+.bloc-filtre1 {
+    display:flex;
+    width:100%;}
+.bloc-filtre2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;}
 .positionf {
     display: flex;
     margin-bottom: 10px;
+    margin-left:10px;
     height: 50px;
-    width:fit-content;
+    width:100%;
     border-radius:40px;
     border: 2px solid #d9d9d9;}
 .positionf p {
-    font-size: 1.1em;
-    margin:15px;}
+    font-size: 1.2em;
+    margin:auto;}   /*15*/
 .positionf span {
     height: 40px;
     width: 50px;
@@ -408,9 +417,9 @@ input {
     color: #0065fc;}
         
 .sous-filters {
+    width:90%;
     margin-top:35px;
-    margin-left: 20px;
-    font-style: italic;}
+    margin:auto;}
 .sous-filters i {
     color:white;
     background-color: #0065fc;
@@ -456,7 +465,7 @@ input {
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
-    padding-left:20px;
+    padding-left:15px;
     width:155px;}
 .Description2 i {
     font-size: 0.9em;
@@ -500,7 +509,7 @@ input {
 .Description1 {
     height:80px;
     padding-top:5px;
-    padding-left:20px;}
+    padding-left:15px;}
 .Description1 i {
     margin-right: 2px;}
 .nom1 {
@@ -523,8 +532,7 @@ input {
     margin-bottom: 20px;}  
                                                                                         /*SECTION 3*/
 #section3 {
-    display:flex;
-    flex-direction: column;}
+    width: 100%;}
 #section3 h2 {
     padding-left: 20px;}
 #section3 img {
@@ -533,19 +541,25 @@ input {
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
-.img31img32img33img34img35img36 {
-    height:135px;}
 #container-tuiles3 {
-    flex-direction: column;}
-#Tuiles3 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;}
+.bloc-Tuiles3 {
     height:190px;
-    width: 335px;
+    width:90%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px #d9d9d9;}
+.Tuiles3 {
+    height:190px;
+    width: 90%;
     margin: auto;
     margin-bottom: 20px;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
-    height:50px;
     padding-left:20px;
     font-weight: bold;}
              
