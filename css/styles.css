@@ -103,14 +103,14 @@ li a#current3 {
 
 
 #filters {                                                                      /*Filtres selon envie*/
-    display: inline-flex;
+    display:flex;
     font-weight: bold;
     height:50px;
     width:90%;
     padding-left:10px;
     margin-top: 30px;}
 .bloc-filtre1.bloc-filtre2 {
-    display:none;}
+    display:flex;}
 .positionf {
     display: flex;
     margin-left: 20px;
@@ -150,6 +150,7 @@ li a#current3 {
 #section1 img {
     height:115px; /*115*/
     width: 100%; /*240*/
+    object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;}
 #section1 h2 {
@@ -161,7 +162,8 @@ li a#current3 {
 #container-tuiles1 {
     display:flex;
     flex-wrap: wrap;
-    margin-left: 4%;  /*40*/
+    justify-content: space-around;  /*40*/
+    margin-left: 30px;
     width:fit-content;}
 .Tuiles1 {
     background-color: white;
@@ -169,11 +171,10 @@ li a#current3 {
     margin-right: 3%; /*30*/
     margin-bottom: 30px;    /*30*/
     width:28%;
-    object-fit: cover;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description1 {
-    margin-top:5px;
+    padding-top:5px;
     margin-left:15px;}
 .Description1 i {
     margin-right: 2px;}
@@ -201,6 +202,7 @@ li a#current3 {
 #section2 img {
     height:130px;   /*130*/
     width: 30%;
+    object-fit: cover;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;}
 .container-tuiles2 {
@@ -214,7 +216,6 @@ li a#current3 {
     margin-left: 9%;  /*35*/
     margin-bottom: 8%;    /*35*/
     padding:5px;
-    object-fit: cover;
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
@@ -247,6 +248,7 @@ li a#current3 {
 #section3 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
 .img31 {height:390px;}
@@ -266,7 +268,6 @@ li a#current3 {
     margin-right: 45px;
     margin-bottom: 45px;
     width:25%;
-    object-fit: cover;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .bloc-Tuiles3 {
@@ -312,18 +313,24 @@ body {
 header {
     height:auto;}
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
-    font-size: 1.2em;
-    margin-top:35px;
+    font-size: 1.5em;
+    margin-top:30px;
     margin-left: 25px;}
        
-nav{                                                                   /*Zone navigation en haut a droite*/
-    border:1px soid green;}
-nav ul {
+nav {                                                                   /*Zone navigation en haut a droite*/
+    align-items: center;
+    width: 90%;
+    margin:auto;
+    border:1px solid green;}
+ul {
+    display:flex;
     margin:0%;}
-nav li {
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0%;}
+
+li {
+    display:flex;
+    justify-content: space-around;
+    height: 70px;
+    list-style-type: none;}
 a {
     text-decoration: none;}
 #current1 {
@@ -331,6 +338,10 @@ a {
 #current2 {
     color:#bfbfbf;}
 #current3 {
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-size: 1.1em;
     color:#0065fc;}
                                                                                             /* FIN HEADER */
                                                                                     /*Zone de transition header body*/
@@ -342,7 +353,7 @@ a {
     margin-bottom: 20px;}
 #title h1 {
     margin-bottom: 0%;
-    width: auto;}
+    width: 80%;}
 #title p {
     margin-top: 5px;}
         
@@ -404,8 +415,7 @@ a {
 .positionf {
     display: flex;
     margin-bottom: 10px;
-    margin-left:10px;
-    height: 50px;
+    margin-left: 10px;
     width:100%;
     border-radius:40px;
     border: 2px solid #d9d9d9;}
@@ -570,7 +580,7 @@ a {
 footer {                                                                    /*Bloc FOOTER*/
     display:flex;
     flex-direction: column;
-    padding-left:20px;
+    padding-left:5%;
     padding-top:45px;
     margin-top: 50px;
     background-color: #f2f2f2;}
@@ -581,9 +591,7 @@ footer span {
 .A.propos {
     margin-left:0px;}
 .Nos.hébergements {
-    margin-left: 0%;
     margin-top:40px}
 .Assistance {
-    margin-left: 0%;
     margin-top:40px;}                                                 /*Fin FOOTER*/
 }                                                                       /*Fin MediaQueries Mobile*/
