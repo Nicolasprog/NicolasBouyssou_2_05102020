@@ -359,7 +359,7 @@ a {
 #title p {
     margin-top: 5px;}
         
-#search {                                                                                 /*Search*/
+#search {                                                                              /*Search*/
     margin: auto;
     margin-top:40px;
     height:50px;
@@ -379,7 +379,7 @@ a {
     border-bottom-left-radius: 10px;}
 #lieu {
     padding-left: 10px;
-    width:73%;    /*230*/
+    width:72.5%;    /*230*/
     height:45px;
     border:none;
     border-top:2px solid #f2f2f2;
