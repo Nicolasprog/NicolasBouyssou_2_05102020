@@ -372,21 +372,21 @@ a {
     background-color: #f2f2f2;
     text-align: center;
     height: 35px;
-    width: 12%;    /*45*/
+    width: 11%;    /*45*/
     padding-top:15px;
     font-size: 1.2em;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;}
 #lieu {
     padding-left: 10px;
-    width:72.9%;    /*230*/
+    width:73%;    /*230*/
     height:45px;
     border:none;
     border-top:2px solid #f2f2f2;
     border-bottom:2px solid #f2f2f2;}
 #Rechercher {
     float:right;
-    width:12%;     /*50*/
+    width:11%;     /*50*/
     text-transform: none;
     border-radius: 7px;}
 #Rechercher p {
