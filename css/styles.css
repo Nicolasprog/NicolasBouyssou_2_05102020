@@ -110,7 +110,9 @@ li a#current3 {
     padding-left:10px;
     margin-top: 30px;}
 .bloc-filtre1.bloc-filtre2 {
-    display:flex;}
+    display:flex;
+    height: 100%;
+    width:100%;}
 .positionf {
     display: flex;
     margin-left: 20px;
@@ -163,7 +165,8 @@ li a#current3 {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;  /*40*/
-    margin-left: 30px;
+    padding-left:40px;
+    margin: auto;
     width:fit-content;}
 .Tuiles1 {
     background-color: white;
@@ -325,7 +328,6 @@ nav {                                                                   /*Zone n
 ul {
     display:flex;
     margin:0%;}
-
 li {
     display:flex;
     justify-content: space-around;
