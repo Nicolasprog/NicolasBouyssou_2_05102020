@@ -75,7 +75,7 @@ li a#current3 {
     border-bottom-left-radius: 10px;}
 #lieu {
     padding-left:20px;
-    width:230px;
+    width:230px;    /*230*/
     height:45px;
     border:none;
     border-top:2px solid #f2f2f2;
@@ -107,12 +107,11 @@ li a#current3 {
     font-weight: bold;
     height:50px;
     width:90%;
+    margin:auto;
     padding-left:10px;
     margin-top: 30px;}
 .bloc-filtre1.bloc-filtre2 {
-    display:flex;
-    height: 100%;
-    width:100%;}
+    display:none;}
 .positionf {
     display: flex;
     margin-left: 20px;
@@ -237,6 +236,7 @@ li a#current3 {
     font-size: 0.8em;
     color: #0065fc;}
 .inline-text-icon {
+    width:90%;
     margin-top: 40px;
     margin-left: 40px;}
 .inline-text-icon i {
