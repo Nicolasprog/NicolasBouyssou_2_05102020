@@ -33,7 +33,7 @@ nav {                                                                    /*Zone 
     top:0px;
     right:115px;}
 ul {
-    display: flex;
+    display:flex;
     margin:0%;}
 li {
     list-style-type: none;
