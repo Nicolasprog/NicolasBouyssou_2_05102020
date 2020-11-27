@@ -452,13 +452,11 @@ a {
     padding-bottom:35px;
     background-color: #f2f2f2;}
 .inline-text-icon {
-    margin-top:40px;
-    margin-right: 20px;
-    margin-left: 20px;}
+    display:flex;
+    justify-content: space-between;
+    margin:20px 20px 0 20px;}
 .inline-text-icon i {
-    float: right;
-    margin-right:20px;
-    font-size: 27px;}
+    font-size: 25px;}
 .container-tuiles2 {
     display:flex;
     flex-direction: column;}
@@ -498,9 +496,10 @@ a {
 
 #section1 {
     width:100%;}
-#section1 h2 {
-    padding-left: 20px;
-    margin-top:40px;}
+#section1 h3 {
+    margin:40px 0 0 20px;}
+#section1 h4 {
+    margin:20px 0 20px 20px;}
 #section1 img {
     object-fit: cover;
     height:115px;
@@ -546,8 +545,8 @@ a {
                                                                                         /*SECTION 3*/
 #section3 {
     width: 100%;}
-#section3 h2 {
-    padding-left: 20px;}
+#section3 h3 {
+    margin-left: 20px;}
 #section3 img {
     height:135px;
     width: 100%;
