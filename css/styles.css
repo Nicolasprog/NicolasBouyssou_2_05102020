@@ -320,7 +320,6 @@ header {
     margin-left: 25px;}
        
 nav {                                                                   /*Zone navigation en haut a droite*/
-    align-items: center;
     width: 90%;
     margin:auto;
     border:1px solid green;}
@@ -328,15 +327,17 @@ ul {
     display:flex;
     margin:0%;}
 li {
-    display:flex;
-    justify-content: space-around;
     height: 70px;
     list-style-type: none;}
 a {
     text-decoration: none;}
 #current1 {
+    position: relative;
+    margin-left:10%;
     color: #106ffc;}
 #current2 {
+    position: relative;
+    margin-left:50%;
     color:#bfbfbf;}
 #current3 {
     position: absolute;
