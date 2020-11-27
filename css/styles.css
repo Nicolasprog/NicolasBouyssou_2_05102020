@@ -155,8 +155,7 @@ li a#current3 {
 #section1 h3 {
     margin:40px 0 20px 40px;}
 #section1 h4 {
-    margin-top: 0%;
-    margin-left:40px;}
+    margin:0 0 0 40px;}
 #container-tuiles1 {
     display:flex;
     flex-wrap: wrap;
