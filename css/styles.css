@@ -26,15 +26,12 @@ header {
     justify-content: space-between;}
 
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
-    margin-top:50px;
+    margin-top:45px;
     left: 0px;}
 
-nav {                                                                    /*Zone navigation en haut a droite*/
-    top:0px;
-    right:115px;}
+                                                                        /*Zone navigation en haut a droite*/
 ul {
-    display:flex;
-    margin:0%;}
+    display:flex;}
 li {
     list-style-type: none;
     margin-top:50px;
@@ -42,9 +39,10 @@ li {
 a {
     text-decoration: none;}
 li a#current1 {
-    margin-top:0%;
+    padding: 50px 20px 0 20px;
     border-top: 1px solid #106ffc;
-    color: #106ffc;}
+    color: #106ffc;
+    border: 1px soid red;}
 li a#current2 {
     color:#bfbfbf;}
 li a#current3 {
@@ -110,8 +108,8 @@ li a#current3 {
     margin:auto;
     padding-left:10px;
     margin-top: 30px;}
-.bloc-filtre1.bloc-filtre2 {
-    display:none;}
+.bloc-filtre1,.bloc-filtre2 {
+    display:flex;}
 .positionf {
     display: flex;
     margin-left: 20px;
