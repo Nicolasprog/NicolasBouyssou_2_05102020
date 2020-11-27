@@ -234,12 +234,13 @@ li a#current3 {
     font-size: 0.8em;
     color: #0065fc;}
 .inline-text-icon {
-    width:90%;
-    margin-top: 40px;
-    margin-left: 40px;}
+    display:flex;
+    justify-content: space-between;
+    width:auto;
+    margin: 20px 30px 0 30px;}
 .inline-text-icon i {
-    float: right;
-    margin-right:40px;
+    display:flex;
+    align-items: center;
     font-size: 27px;}
 
                                                                                 /*SECTION 3*/
