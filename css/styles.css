@@ -8,7 +8,7 @@
          url('../Fonts/raleway-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../Fonts/raleway-v18-latin-regular.svg') format('svg'); /* Legacy iOS */
         }
-@media screen and (min-width: 768px) {                           /*Début MédiaQueries pour desktop */
+@media screen and (min-width: 992px) {                           /*Début MédiaQueries pour desktop */
 
                                                                             /*Modif Global*/
 #bloc_page {                /*1440px*/
@@ -293,7 +293,7 @@ footer span {
 .Assistance {
     margin-left:20%;} /*290*/
 }                                                                       /*Fin MédiaQueries Desktop*/
-@media screen and (min-width:991px max-width=769px) {                               /*Début MédiaQueries pour tablet */
+@media screen and (min-width:769px) {                 /*Début MédiaQueries pour tablet */
 
                                                                                 /*Modif Global*/
 #bloc_page {                /*768 a 991px*/
@@ -521,7 +521,7 @@ margin: 20px 30px 0 30px;}
 .inline-text-icon i {
 display:flex;
 align-items: center;
-font-size: 27px;}
+font-size: 20px;}
 
                                                                                         /*SECTION 3*/
 #section3 {
