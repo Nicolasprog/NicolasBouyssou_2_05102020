@@ -271,7 +271,7 @@ li a#current3 {
     border-radius: 10px;}
 .Description3 {
     height:37px;
-    padding-left: 20px;
+    padding-left: 15px;
     font-weight: bold;}
 
                                                                                 /*FOOTER*/
@@ -293,7 +293,7 @@ footer span {
 .Assistance {
     margin-left:20%;} /*290*/
 }                                                                       /*Fin MédiaQueries Desktop*/
-@media screen and (min-width:769px) {                 /*Début MédiaQueries pour tablet */
+@media screen and (min-width:768px) {                                  /*Début MédiaQueries pour tablet */
 
                                                                                 /*Modif Global*/
 #bloc_page {                /*768 a 991px*/
@@ -302,8 +302,7 @@ margin-right: 25px;}
 
 body {
 font-family:'Raleway';
-margin:auto;
-max-width:1440px;}
+margin:auto;}
 
                                                                                     /* HEADER */
 header {
