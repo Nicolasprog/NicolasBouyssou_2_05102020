@@ -104,10 +104,7 @@ li a#current3 {
     display:flex;
     font-weight: bold;
     height:50px;
-    width:90%;
-    margin:auto;
-    padding-left:10px;
-    margin-top: 30px;}
+    margin:30px 0 0 10px;}
 .bloc-filtre1,.bloc-filtre2 {
     display:flex;}
 .positionf {
@@ -143,7 +140,7 @@ li a#current3 {
 
                                                                             /*SECTION 1*/
 #section1 {
-    width: 75%; 
+    width: 65%; 
     border-radius: 20px;
     background-color:#f2f2f2;}
 #section1 img {
