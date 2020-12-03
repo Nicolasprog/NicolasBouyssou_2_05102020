@@ -213,6 +213,7 @@ li a#current3 {
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
+    position: relative;
     width:55%;    /*160*/
     padding-left: 15px;}
 .Description2 i {
@@ -225,6 +226,8 @@ li a#current3 {
 .prix2 span {
     font-weight: bold;}
 .note2 {
+    position: absolute;
+    bottom: 0px;
     margin-top:20px;
     font-size: 0.8em;
     color: #0065fc;}
@@ -387,14 +390,15 @@ display:none;}
 #filters {                                                                      /*Filtres selon envie*/
 display:flex;
 font-weight: bold;
-height:50px;
+height:auto;
 margin:30px 0 0 10px;}
 .bloc-filtre1,.bloc-filtre2 {
 display:flex;}
 .positionf {
 display: flex;
-margin-left: 20px;
-border-radius: 40px;
+height:50px;
+margin-left:10px;
+border-radius: 50px;
 border: 2px solid #d9d9d9;}
 .positionf p {
 margin-left:10px;
@@ -408,8 +412,7 @@ background-color: #DEEBFF;
 color: #0065fc;}
 
 .sous-filters {
-margin-top:40px;
-margin-left: 10px;}
+margin:40px 0 0 10px;}
 .sous-filters i {
 color:white;
 background-color: #0065fc;
