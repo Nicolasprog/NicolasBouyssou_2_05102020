@@ -600,12 +600,11 @@ header {
        
 nav {                                                                   /*Zone navigation en haut a droite*/
     width: 100%;
-    padding:30px 0 0px 0;
-    border:1px solid green;}
+    padding:30px 0 0 0;}
 ul {
     display:flex;
     justify-content: space-around;
-    height:50px;
+    height:40px;
     vertical-align: middle;
     margin: 0%;
     padding: 0%;}
@@ -617,15 +616,15 @@ li {
 a {
     text-decoration: none;}
 #current1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     width: 100%;
     border-bottom: 5px solid #bfbfbf;
     color: #106ffc;}
 #current2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
-    width: 100%;;
+    width: 100%;
     border-bottom: 5px solid #bfbfbf;
     color:#bfbfbf;}
 #current1#current2:hover {
@@ -637,7 +636,7 @@ li:nth-last-child(1) {
     top: 45px;
     right: 30px;
     justify-content: flex-end;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color:#0065fc;}
                                                                                             /* FIN HEADER */
                                                                                     /*Zone de transition header body*/
@@ -645,11 +644,9 @@ li:nth-last-child(1) {
     margin: 40px 0 20px 20px;
     font-size: 0.8em;}
 #title h1 {
-    margin-bottom: 0%;
-    width: 90%;}
+    margin-bottom: 0%;}
 #title p {
     margin-top: 5px;
-    width:80%;
     font-size: 1.5em;}
         
 #search {                                                                              /*Search*/
@@ -675,7 +672,7 @@ li:nth-last-child(1) {
     border-bottom-left-radius: 10px;}
 #lieu {
     padding-left: 10px;
-    width:74.46%;    /*230*/
+    width:74.45%;    /*230*/
     height:45px;
     border:none;
     border-top:2px solid #f2f2f2;
@@ -707,11 +704,12 @@ li:nth-last-child(1) {
     margin-left: 10px;}
 .bloc-filtre1 {
     display:flex;
+    justify-content: space-evenly;
     width:100%;}
 .bloc-filtre2 {
     display: flex;
     flex-direction: column;
-    width: 60%;}
+    width: 70%;}
 .positionf {
     display: flex;
     margin-bottom: 10px;
