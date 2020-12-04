@@ -41,8 +41,7 @@ a {
 li a#current1 {
     padding: 50px 20px 0 20px;
     border-top: 1px solid #106ffc;
-    color: #106ffc;
-    border: 1px soid red;}
+    color: #106ffc;}
 li a#current2 {
     color:#bfbfbf;}
 li a#current3 {
@@ -694,8 +693,7 @@ li:nth-last-child(1) {
     font-weight: bold;
     margin:auto;
     width:90%;
-    margin-top: 40px;
-    border: 1px solid black;}
+    margin-top: 40px;}
 #filters p {
     margin-left: 10px;}
 .bloc-filtre1 {
