@@ -603,20 +603,21 @@ nav {                                                                   /*Zone n
     border:1px solid green;}
 ul {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height:70px;
     margin: 0%;
     padding: 0%;}
 li {
+    display:flex;
     list-style-type: none;}
 a {
     text-decoration: none;}
 #current1 {
-    width:50%;
+    font-size: 1.5em;
     border-bottom: 5px solid #bfbfbf;
     color: #106ffc;}
 #current2 {
-    width:50%;
+    font-size: 1.5em;
     border-bottom: 5px solid #bfbfbf;
     color:#bfbfbf;}
 #current1#current2:hover {
@@ -694,6 +695,8 @@ li:nth-last-child(1) {
     width:90%;
     margin-top: 40px;
     border: 1px solid black;}
+#filters p {
+    margin-left: 10px;}
 .bloc-filtre1 {
     display:flex;
     width:100%;}
