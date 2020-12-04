@@ -599,26 +599,29 @@ header {
     margin-left: 25px;}
        
 nav {                                                                   /*Zone navigation en haut a droite*/
-    width: 90%;
-    margin:auto;
+    width: 100%;
     border:1px solid green;}
 ul {
     display:flex;
-    margin:0%;}
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;}
 li {
     height: 70px;
     list-style-type: none;}
 a {
     text-decoration: none;}
 #current1 {
-    position: relative;
-    margin-left:10%;
+    width:50%;
+    border-bottom: 5px solid #bfbfbf;
     color: #106ffc;}
 #current2 {
-    position: relative;
-    margin-left:60%;
+    width:50%;
+    border-bottom: 5px solid #bfbfbf;
     color:#bfbfbf;}
-#current3 {
+#current1#current2:hover {
+    border-bottom:5px solid #0065fc;}
+li:nth-last-child(1) {
     position: absolute;
     top: 45px;
     right: 30px;
@@ -661,7 +664,7 @@ a {
     border-bottom-left-radius: 10px;}
 #lieu {
     padding-left: 10px;
-    width:72.5%;    /*230*/
+    width:74.46%;    /*230*/
     height:45px;
     border:none;
     border-top:2px solid #f2f2f2;
