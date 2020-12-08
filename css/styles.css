@@ -57,47 +57,41 @@ li a#current3 {
 #title p {
     margin-top: 5px;}
 
-#search {                                                                              /*Search*/
-    height: 50px;
-    width: fit-content;
-    margin-top:20px;}
-#search i {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding-top: 15px;
-    height: 35px;
-    width: 45px;
-    font-size: 1.2em;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;}
+                                                                           /*Search*/
 form {
     display:flex;}
-#lieu {
-    padding-left:20px;
-    width:230px;    /*230*/
-    height:45px;
+#position {
+    display:flex;
+    position: relative;
+    width:50px;
+    background-color: #f2f2f2;
+    border-radius: 10px 0 0 10px;}
+#position i {
+    position: absolute;
+    top:15px;
+    left:20px;
+    font-size: 1.2em;}
+#input-button {
+    position: relative;}
+#search input {
+    height:50px;
+    width:200px;
+    outline-color: #0065fc;
+    border:1px solid #f2f2f2;}
+#search-text {
+    position: absolute;
+    height:54px;
+    font-size:16px;
     border:none;
-    border-top:2px solid #f2f2f2;
-    border-bottom:2px solid #f2f2f2;}
+    outline:none;
+    cursor:pointer;
+    color: white;
+    background-color: #0065fc;
+    border-radius: 0 10px 10px 0;}
 ::placeholder {
     font-size:1.3em;
     font-weight: bold;}
-#Rechercher {
-    display: table;
-    float:right;
-    height: 50px;
-    width:120px;
-    text-transform: none;
-    color: white;
-    background-color: #0065fc;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;}
-#Rechercher p {
-    display:table-cell;
-    font-size: 1.1em;
-    vertical-align: middle;
-    text-align: center;}
-#Rechercher i {
+#search-icon {
     display:none;}
 
 
@@ -165,29 +159,27 @@ form {
     background-color: white;
     padding:4px;
     margin-right: 3%; /*30*/
-    margin-bottom: 30px;    /*30*/
+    margin-bottom: 25px;    /*30*/
     width:28%;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description1 {
-    padding-top:5px;
-    margin-left:15px;}
+    padding:5px 0 0 10px;}
 .Description1 i {
     margin-right: 2px;}
 .nom1 {
     margin:0%;
     font-weight:bold;}
 .prix1 {
-    margin-bottom: 0%;
-    margin-top:5px;}
+    margin:5px 0 5px 0;}
 .prix1 span {
     font-weight: bold;}
 .note1 {
-    margin-top:5px;
     font-size: 0.8em;
     color: #0065fc;}
 .far {
-    color:#d9d9d9;}
+    color:#d9d9d9;
+}
 
                                                                                 /*SECTION 2*/
 #section2 {
@@ -244,36 +236,36 @@ form {
 
 #section3 {
     margin-top: 65px;}
-    #section3 img {
+#section3 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;}
-    .img31 {height:390px;}
-    .img32 {height:180px;}
-    .img33 {height:110px;}
-    .img34 {height:390px;}
-    .img35 {height:140px;}
-    .img36 {height:150px;}
-    #container-tuiles3 {
+.img31 {height:390px;}
+.img32 {height:180px;}
+.img33 {height:110px;}
+.img34 {height:390px;}
+.img35 {height:140px;}
+.img36 {height:150px;}
+#container-tuiles3 {
     display:flex;
     width:100%;}
-    .bloc-column1 {
+.bloc-column1 {
     width:25%;}
-    .bloc-column2 {
+.bloc-column2 {
     width:25%;}
-    .Tuiles3 {
+.Tuiles3 {
     margin:0 45px 45px 0;
     width:25%;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
-    .bloc-Tuiles3 {
+.bloc-Tuiles3 {
     margin-right: 45px;
     margin-bottom: 45px;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
-    .Description3 {
+.Description3 {
     height:37px;
     padding-left: 20px;
     font-weight: bold;}
@@ -361,47 +353,47 @@ li:nth-last-child(1) {
     margin-top: 5px;
     font-size: 1.5em;}
         
-#search {                                                                              /*Search*/
-    margin: auto;
-    margin-top:40px;
-    height:50px;
-    width: 90%;}
-::placeholder {
-    padding-left:10px;
-    font-size:1.4em;
-    vertical-align: middle;
-    color: black;
-    font-style: bold;}
-#search i {
-    float: left;
+                                                                           /*Search*/
+form {
+    display:flex;}
+#search {
+    width: 90%;
+    margin: auto;}
+#position {
+    display:flex;
+    position: relative;
+    width:50px;
     background-color: #f2f2f2;
-    text-align: center;
-    height: 35px;
-    width: 11%;    /*45*/
-    padding-top:15px;
-    font-size: 1.2em;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;}
-#lieu {
-    padding-left: 10px;
-    width:74.44%;    /*230*/
-    height:45px;
+    border-radius: 10px 0 0 10px;}
+#position i {
+    position: absolute;
+    top:15px;
+    left:20px;
+    font-size: 1.2em;}
+#input-button {
+    position: relative;}
+#search input {
+    height:50px;
+    padding-left: 15px;
+    outline-color: #0065fc;
+    border:1px solid #f2f2f2;}
+#search-icon {
+    position: absolute;
+    height:54px;
+    width:50px;
+    font-size:18px;
     border:none;
-    border-top:2px solid #f2f2f2;
-    border-bottom:2px solid #f2f2f2;}
-#Rechercher {
-    float:right;
-    width:11%;     /*50*/
-    text-transform: none;
-    border-radius: 7px;}
-#Rechercher p {
-    display:none;}
-#Rechercher i {
-    width:100%;
+    outline:none;
+    cursor:pointer;
     color: white;
     background-color: #0065fc;
-    text-align: center;
-    border-radius: 8px;}
+    border-radius: 0 10px 10px 0;}
+#search-text {
+    display:none;}
+::placeholder {
+    font-size:1.3em;
+    font-weight: bold;}
+
         
         
 #filters {                                                                      /*Filtres selon envie*/

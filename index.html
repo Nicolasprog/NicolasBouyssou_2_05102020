@@ -34,9 +34,12 @@
             <!--Boite Rechercher !-->
             <form method="post" action="traitement.php">
                 <label for="lieu"></label>
-                <i class="fas fa-map-marker-alt"></i><input type="text" name="lieu" id="lieu"
-                    placeholder="Marseille, France">
-                <a id="Rechercher" href="Rechercher"><p>Rechercher</p><i class="fas fa-search"></i></a>
+                <div id="position"><i class="fas fa-map-marker-alt"></i></div>
+            <div id="input-button">
+                <input type="text" name="lieu" id="lieu"placeholder="Marseille, France">
+                <button id="search-text"><strong>Rechercher</strong></button>
+                <button id="search-icon"><i class="fas fa-search"></i></button>
+            </div>
             </form>
         </div>
 
