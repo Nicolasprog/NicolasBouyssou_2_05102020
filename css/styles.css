@@ -49,8 +49,7 @@ li a#current3 {
                                                                                     /* FIN HEADER */
                                                                             /*Zone de transition header body*/
 #title {
-    margin-top: 50px;
-    margin-bottom: 20px;}
+    margin: 50px 0 20px 0;}
 #title h1 {
     font-size: 1.5em;
     margin-bottom: 0%;}
@@ -110,7 +109,7 @@ form {
 .positionf p {
     margin-left:10px;
     margin-right: 20px;}
-.positionf span {
+.positionf i {
     height:40px;    /*40*/
     width:50px;     /*50*/
     padding-top: 10px;
@@ -178,8 +177,7 @@ form {
     font-size: 0.8em;
     color: #0065fc;}
 .far {
-    color:#d9d9d9;
-}
+    color:#d9d9d9;}
 
                                                                                 /*SECTION 2*/
 #section2 {
@@ -191,8 +189,7 @@ form {
     height:130px;   /*130*/
     width: 30%;
     object-fit: cover;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;}
+    border-radius:10px 0 0 10px;}
 .container-tuiles2 {
     display:flex;
     flex-direction: column;
@@ -240,8 +237,7 @@ form {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius:10px;}
+    border-radius: 10px 10px 0 0;}
 .img31 {height:390px;}
 .img32 {height:180px;}
 .img33 {height:110px;}
@@ -261,13 +257,12 @@ form {
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .bloc-Tuiles3 {
-    margin-right: 45px;
-    margin-bottom: 45px;
+    margin:0 45px 45px 0;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description3 {
     height:37px;
-    padding-left: 20px;
+    padding-left: 15px;
     font-weight: bold;}
 
                                                                                 /*FOOTER*/
@@ -369,10 +364,11 @@ form {
     position: absolute;
     top:15px;
     left:20px;
-    font-size: 1.2em;}
+    font-size: 1.3em;}
 #input-button {
-    position: relative;
-    width:max-content;}
+    width:auto;}
+#lieu {
+    max-width:auto;}
 #search input {
     height:50px;
     padding-left: 15px;
@@ -385,7 +381,6 @@ form {
     font-size:18px;
     border:none;
     outline:none;
-    cursor:pointer;
     color: white;
     background-color: #0065fc;
     border-radius:15px;}
@@ -407,29 +402,19 @@ form {
     margin-top: 40px;}
 #filters p {
     margin-left: 10px;}
-.bloc-filtre1 {
-    display:flex;
-    justify-content: space-evenly;
-    width:100%;}
-.bloc-filtre2 {
-    display: flex;
-    flex-direction: column;
-    width: 70%;}
 .positionf {
-    display: flex;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width:100%;
+    flex-wrap: wrap;
+    height:50px;
     border-radius:40px;
     border: 2px solid #d9d9d9;}
 .positionf p {
     font-size: 1.2em;
     margin:auto;}   /*15*/
-.positionf span {
-    height: 40px;
+.positionf i {
+    height: 42px;
     width: 50px;
     padding-top: 10px;
-    border-radius: 50%;
+    border-radius: 50px;
     background-color: #DEEBFF;
     color: #0065fc;}
         
