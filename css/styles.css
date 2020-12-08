@@ -357,8 +357,8 @@ li:nth-last-child(1) {
 form {
     display:flex;}
 #search {
-    width: 90%;
-    margin: auto;}
+    width:90%;
+    margin:auto;}
 #position {
     display:flex;
     position: relative;
@@ -371,7 +371,8 @@ form {
     left:20px;
     font-size: 1.2em;}
 #input-button {
-    position: relative;}
+    position: relative;
+    width:max-content;}
 #search input {
     height:50px;
     padding-left: 15px;
@@ -387,11 +388,12 @@ form {
     cursor:pointer;
     color: white;
     background-color: #0065fc;
-    border-radius: 0 10px 10px 0;}
+    border-radius:15px;}
 #search-text {
     display:none;}
 ::placeholder {
     font-size:1.3em;
+    color: black;
     font-weight: bold;}
 
         
