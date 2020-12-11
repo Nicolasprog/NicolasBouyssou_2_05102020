@@ -101,9 +101,9 @@ form {
     width: 100%;
     font-weight: bold;
     font-size: 1.1em;}
-#filters_container {
+#filters-container {
     display: flex;}
-.filter_category{
+.filter-category{
     margin-left: 30px;
     position: relative;}
 .container-i {
@@ -111,13 +111,13 @@ form {
     top: -11px;
     left: -5px;
     font-size: 1.25em;}
-.filter_text {
+.filter-text {
     padding: 10px 10px 10px 45px;
     border: solid 2px #f2f2f2;
     border-radius: 50px;}
-#filters_container i {
+#filters-container i {
     color: #0065fc;}
-#filters_container i.circle {
+#filters-container i.circle {
     color: #deebff;}  
                                                                          
 .sous-filters {
@@ -292,7 +292,7 @@ footer span {
 @media screen and (max-width: 980px) {                                    /*Règle CSS pour mobile */
 
 #bloc-page {
-    width:auto;        /*width 0 > 768pxpx*/} 
+    width:auto;        /*width 0 > 980px*/} 
 body {
     font-family:'Raleway';
     margin:0%;}      
@@ -356,7 +356,8 @@ form {
     display:flex;}
 #search {
     width:90%;
-    margin:auto;}
+    margin:auto;
+    margin-top:40px;}
 #position {
     display:flex;
     position: relative;
@@ -395,29 +396,38 @@ form {
     font-weight: bold;}
 
 #filters-section {
-    flex-direction: row;}
-#filters_container {
-    flex-wrap: wrap;}
-.filter_category {
-    margin: 25px 0 10px 15px;}
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    margin:40px 0 40px 15px;
+    font-size: 1.1em;
+    font-weight: bold;}
+#filters-container {
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid black;}
+.filter-category {
+    position: relative;
+    margin:25px 0 10px 15px;
+    margin-left: 40px;}
 .container-i {
     position: absolute;
-    top: -12px;
+    top: -11px;
     left: -5px;
     font-size: 1.25em;}
-.filter_text {
+.filter-text {
     padding: 10px 10px 10px 45px;
     border: solid 2px #f2f2f2;
     border-radius: 50px;}
-#filters_container i {
+#filters-container i {
     color: #0065fc;}
-#filters_container i.circle {
+#filters-container i.circle {
     color: #deebff;}
 
         
 .sous-filters {
     width:90%;
-    margin-top:35px;
+    margin-top:40px;
     margin:auto;}
 .sous-filters i {
     color:white;
