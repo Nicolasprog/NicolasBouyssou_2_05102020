@@ -146,9 +146,8 @@ form {
     height:115px; /*115*/
     width: 100%; /*240*/
     object-fit: cover;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;}
-#section1 h3 {
+    border-radius:10px 10px 0 0;}
+#section1 h3 { 
     margin:40px 0 20px 40px;}
 #section1 h4 {
     margin:0 0 0 40px;}
@@ -156,31 +155,36 @@ form {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;  /*40*/
-    padding-left:40px;
+    padding-left:30px;
     margin: auto;
     width:fit-content;}
 .Tuiles1 {
     background-color: white;
     padding:4px;
-    margin-right: 3%; /*30*/
-    margin-bottom: 25px;    /*30*/
+    margin:0 3% 30px 0; /*30*/
     width:28%;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description1 {
-    padding:5px 0 0 10px;}
+    padding:5px 0 5px 10px;}
 .Description1 i {
     margin-right: 2px;}
 .nom1 {
     margin:0%;
     font-weight:bold;}
 .prix1 {
-    margin:5px 0 5px 0;}
+    margin:10px 0 10px 0;}
 .prix1 span {
     font-weight: bold;}
 .note1 {
+    display:flex;
+    align-content: center;
+    vertical-align: middle;
     font-size: 0.8em;
     color: #0065fc;}
+.icon-grey {
+    margin-right: 2px;
+    color:#d9d9d9;}
 .far {
     color:#d9d9d9;}
 
