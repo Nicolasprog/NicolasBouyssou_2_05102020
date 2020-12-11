@@ -43,7 +43,7 @@ li a#current1 {
     border-top: 1px solid #106ffc;
     color: #106ffc;}
 li a#current2 {
-    color:#bfbfbf;}
+    color:black;}
 li a#current3 {
     color:#0065fc;}
                                                                                     /* FIN HEADER */
@@ -177,9 +177,10 @@ form {
 .prix1 span {
     font-weight: bold;}
 .note1 {
-    font-size: 0.8em;
-    color: #0065fc;}
-.far {
+    font-size: 0.8em;}
+.selected {
+    color:#0065fc;}
+.unselected {
     color:#d9d9d9;}
 
                                                                                 /*SECTION 2*/
@@ -207,7 +208,7 @@ form {
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
     position: relative;
-    width:55%;    /*160*/
+    width:50%;    /*160*/
     padding-left: 15px;}
 .Description2 i {
     margin-right:2px;}
@@ -222,8 +223,7 @@ form {
     position: absolute;
     bottom: 0px;
     margin-top:20px;
-    font-size: 0.8em;
-    color: #0065fc;}
+    font-size: 0.8em;}
 .inline-text-icon {
     display:flex;
     justify-content: space-between;
@@ -354,6 +354,7 @@ li:nth-last-child(1) {
                                                                            /*Search*/
 form {
     display:flex;
+    justify-content: center;
     width:90%;
     margin: auto;}
 #search {
