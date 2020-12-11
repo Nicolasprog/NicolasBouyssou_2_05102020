@@ -399,17 +399,18 @@ form {
     display:flex;
     flex-direction: column;
     width:100%;
-    margin:40px 0 40px 15px;
+    margin:40px 0 40px 0;
     font-size: 1.1em;
-    font-weight: bold;}
+    font-weight: bold;} 
+#filters-section span {
+    margin-left: 20px;}
 #filters-container {
     display:flex;
     flex-wrap: wrap;
     border:1px solid black;}
 .filter-category {
     position: relative;
-    margin:25px 0 10px 15px;
-    margin-left: 40px;}
+    margin:25px 0 10px 0px;}
 .container-i {
     position: absolute;
     top: -11px;
