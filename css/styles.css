@@ -161,7 +161,7 @@ form {
 .Tuiles1 {
     background-color: white;
     padding:4px;
-    margin:0 3% 30px 0; /*30*/
+    margin:0 3% 30px 0;
     width:28%;
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
@@ -190,7 +190,7 @@ form {
     width: 35%;
     border-radius: 20px;}
 #section2 img {
-    height:130px;   /*130*/
+    height:130px; 
     width: 30%;
     object-fit: cover;
     border-radius:10px 0 0 10px;}
@@ -201,28 +201,27 @@ form {
 .Tuiles2 {
     display:inline-flex;
     background-color: white;
-    width:78%;    /*340*/
+    width:78%;
     margin:0 auto 8%;
     padding:5px;
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
     position: relative;
-    width:50%;    /*160*/
+    width:50%;
     padding-left: 15px;}
 .Description2 i {
     margin-right:2px;}
 .nom2 {
-    margin-bottom: 0%;
+    margin:10px 0 0 0;
     font-weight:bold;}
 .prix2 {
-    margin-top:5px;}
+    margin:5px 0 0 0;}
 .prix2 span {
     font-weight: bold;}
 .note2 {
     position: absolute;
-    bottom: 0px;
-    margin-top:20px;
+    bottom: 5px;
     font-size: 0.8em;}
 .inline-text-icon {
     display:flex;
@@ -232,7 +231,7 @@ form {
 .inline-text-icon i {
     display:flex;
     align-items: center;
-    font-size: 27px;}
+    font-size: 25px;}
 
 #section3 {
     margin-top: 65px;}
@@ -270,7 +269,7 @@ form {
 
                                                                                 /*FOOTER*/
 
-footer {    /*Bloc FOOTER*/
+footer {                                                                    /*Bloc FOOTER*/
     display:flex;
     padding:50px 0 50px 0;
     background-color: #f2f2f2;}
@@ -281,11 +280,11 @@ footer span {
 .Rubriques p {
     margin:0 0 10px 0;}
 .A.propos {
-    margin-left:5%;} /*50*/
+    margin-left:5%;}
 .Nos.hébergements {
-    margin-left:15%;} /*230*/
+    margin-left:15%;} 
 .Assistance {
-    margin-left:20%;} /*290*/
+    margin-left:20%;}
 }                                                                       /*Fin MédiaQueries Desktop*/
 
                                                                         /*Fin MEDIA QUERIES Tablet*/
