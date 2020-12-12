@@ -354,11 +354,10 @@ li:nth-last-child(1) {
 form {
     display:flex;
     justify-content: center;
-    width:90%;
-    margin: auto;}
+    width:95%;}
 #search {
-    margin: auto;
     width:90%;
+    margin:auto;
     margin-top:40px;}
 #position {
     display:flex;
@@ -372,9 +371,9 @@ form {
     left:20px;
     font-size: 1.3em;}
 #input-button {
-    width:auto;}
+    width:80%;}
 #lieu {
-    width:auto;}
+    width:80%;}
 #search input {
     height:50px;
     padding-left: 15px;
