@@ -112,7 +112,7 @@ form {
 .filter-category :hover,.container-i:hover{
     color:#0065fc;
     background-color: #deebff;
-    transition: all 1s ease-out;
+    transition: all 0.8s ease-out;
     width:101%;
     border-radius: 30px;}
 .container-i {
@@ -175,17 +175,20 @@ form {
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description1 {
+    position:relative;
     padding:5px 0 5px 10px;}
 .Description1 i {
-    margin-right: 2px;}
+    margin-right:2px;}
 .nom1 {
     margin:0%;
     font-weight:bold;}
 .prix1 {
-    margin:10px 0 10px 0;}
+    margin:5px 0 18px 0;}
 .prix1 span {
     font-weight: bold;}
 .note1 {
+    position:absolute;
+    bottom:0px;
     font-size: 0.8em;}
 .selected {
     color:#0065fc;}
@@ -200,13 +203,13 @@ form {
     border-radius: 20px;}
 #section2 img {
     height:130px; 
-    width: 30%;
+    width: 35%;
     object-fit: cover;
     border-radius:10px 0 0 10px;}
 .container-tuiles2 {
     display:flex;
     flex-direction: column;
-    width:100%;}
+    justify-content: center;}
 .Tuiles2 {
     display:inline-flex;
     background-color: white;
@@ -494,11 +497,11 @@ form {
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
-    padding-left:15px;
+    position: relative;
+    padding:10px 0 0 15px;
     width:160px;}
 .Description2 i {
     font-size: 0.9em;
-    color:#0065fc;
     margin-right:2px;}
 .Description2 span {
     font-weight: bold;}
@@ -508,9 +511,14 @@ form {
 .prix2 {
     margin-top:5px;}
 .note2 {
+    position: absolute;
+    bottom:0px;
     margin-top:30px;
-    font-size: 0.9em;
-    color: #0065fc;}
+    font-size: 0.9em;}
+.selected {
+    color:#0065fc;}
+.unselected {
+    color:#d9d9d9;}
 
 #section1 {
     width:100%;}
@@ -539,6 +547,7 @@ form {
     background-color: white;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description1 {
+    position:relative;
     height:80px;
     padding-top:5px;
     padding-left:15px;}
@@ -553,11 +562,10 @@ form {
 .prix1 span {
     font-weight: bold;}
 .note1 {
+    position:absolute;
+    bottom:0px;
     margin-top:10px;
-    font-size: 0.8em;
-    color: #0065fc;}
-.far {
-    color:#d9d9d9;} 
+    font-size: 0.8em;}
                                                                                         /*SECTION 3*/
 #section3 {
     width: 100%;}
