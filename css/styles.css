@@ -415,12 +415,12 @@ form {
     flex-wrap: wrap;}
 .filter-category {
     position: relative;
-    margin:25px 0 10px 10px;}
+    margin:25px 0 0px 10px;}
 .filter-category :hover,.container-i :hover{
     color:#0065fc;
     background-color: #deebff;
     transition: all 0.5s ease-out;
-    width:100%;
+    width:101%;
     border-radius: 30px;}
 .container-i  {
     position: absolute;
