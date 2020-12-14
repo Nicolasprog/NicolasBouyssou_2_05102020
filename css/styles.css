@@ -498,20 +498,18 @@ form {
     padding:10px 0 0 15px;
     width:160px;}
 .Description2 i {
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-right:2px;}
 .Description2 span {
     font-weight: bold;}
 .nom2 {
-    margin-bottom: 2px;
+    margin-bottom:5px;
     font-weight:bold;}
 .prix2 {
-    margin-top:5px;}
+    margin-top:15px;}
 .note2 {
     position: absolute;
-    bottom:0px;
-    margin-top:30px;
-    font-size: 0.9em;}
+    bottom:0px;}
 .selected {
     color:#0065fc;}
 .unselected {
@@ -529,8 +527,7 @@ form {
     object-fit: cover;
     height:115px;
     width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;}
+    border-radius:10px 10px 0 0;}
 #container-tuiles1 {
     display:flex;
     flex-direction: column;
@@ -545,23 +542,21 @@ form {
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description1 {
     position:relative;
-    height:80px;
-    padding-top:5px;
-    padding-left:15px;}
+    height:80px; 
+    padding:5px 0 0 15px;}
 .Description1 i {
     margin-right: 2px;}
 .nom1 {
-    margin:0%;
+    margin:5px 0 10px 0;
     font-weight:bold;}
 .prix1 {
-    margin-bottom: 0%;
-    margin-top:5px;}
+    margin:5px 0 0 0;}
 .prix1 span {
     font-weight: bold;}
 .note1 {
     position:absolute;
     bottom:0px;
-    margin-top:10px;
+    margin-top:5px;
     font-size: 0.8em;}
                                                                                         /*SECTION 3*/
 #section3 {
@@ -573,8 +568,7 @@ form {
     height:135px;
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius:10px;}
+    border-radius:10px 10px 0 0;}
 #container-tuiles3 {
     display: flex;
     flex-direction: column;
@@ -600,8 +594,7 @@ form {
 footer {                                                                    /*Bloc FOOTER*/
     display:flex;
     flex-direction: column;
-    padding-left:5%;
-    padding-top:45px;
+    padding:45px 0 0 5%;
     margin-top: 50px;
     background-color: #f2f2f2;}
 footer span {
