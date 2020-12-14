@@ -102,20 +102,23 @@ form {
     width: 100%;
     font-weight: bold;
     font-size: 1.1em;}
+#filters-section p {
+    margin: 0%;}
 #filters-container {
     display: flex;}
 .filter-category{
     margin-left: 30px;
     position: relative;}
 .filter-category :hover,.container-i:hover{
-    color:#ffffff;
-    background-color: #FCA8FF;
+    color:#0065fc;
+    background-color: #deebff;
     transition: all 1s ease-out;
+    width:101%;
     border-radius: 30px;}
 .container-i {
     position: absolute;
     top: -11px;
-    left: -6px;
+    left: -5px;
     color:#0065fc;
     font-size: 1.25em;}
 .filter-text {
@@ -405,7 +408,7 @@ form {
     flex-direction: column;
     width:90%;
     margin:auto;
-    margin:40px 0 40px 0;
+    margin:20px 0 40px 20px;
     font-size: 1.1em;
     font-weight: bold;}
 #filters-section p {
@@ -415,7 +418,7 @@ form {
     flex-wrap: wrap;}
 .filter-category {
     position: relative;
-    margin:25px 0 0px 10px;}
+    margin:25px 0 10px 10px;}
 .filter-category :hover,.container-i :hover{
     color:#0065fc;
     background-color: #deebff;
