@@ -14,6 +14,10 @@
     margin-left: 55px;
     margin-right: 50px;}
 
+a:visited {
+    text-decoration: none;
+    color: #000000;}
+
 body {
     font-family:'Raleway';
     margin:auto;}
@@ -300,12 +304,18 @@ footer span {
 
 #bloc-page {
     width:auto;        /*width 0 > 980px*/} 
+    
+a:visited {
+    text-decoration: none;
+    color: #000000;}
+
 body {
     font-family:'Raleway';
     margin:0%;}      
                                                                                         /* HEADER */
 header {
     height:auto;}
+
 #logoGauche {                                                       /*Applique le logo a gauche selon la maquette*/
     font-size: 1.5em;
     margin:30px 0 0 25px;}
