@@ -495,18 +495,18 @@ form {
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
     position: relative;
-    padding:10px 0 0 15px;
-    width:160px;}
+    padding:15px 0 0 15px;
+    width:50%;}
 .Description2 i {
     font-size: 0.8em;
     margin-right:2px;}
 .Description2 span {
     font-weight: bold;}
 .nom2 {
-    margin-bottom:5px;
+    margin:0 0 5px 0;
     font-weight:bold;}
 .prix2 {
-    margin-top:15px;}
+    margin-top:10px;}
 .note2 {
     position: absolute;
     bottom:0px;}
