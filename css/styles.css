@@ -177,17 +177,21 @@ form {
     box-shadow: 5px 3px 3px #d9d9d9;
     border-radius: 10px;}
 .Description1 {
+    position: relative;
+    height:80px;
     padding:5px 0 0 10px;}
 .Description1 i {
     margin-right:2px;}
 .nom1 {
-    margin:0%;
+    margin:2px 0 8px 0;
     font-weight:bold;}
 .prix1 {
-    margin:5px 0 10px 0;}
+    margin:0%;}
 .prix1 span {
     font-weight: bold;}
 .note1 {
+    position: absolute;
+    bottom:0px;
     font-size: 0.8em;}
 .selected {
     color:#0065fc;}
@@ -213,13 +217,13 @@ form {
     display:inline-flex;
     background-color: white;
     width:85%;
-    margin:0 auto 8%;
+    margin:0 auto 9%;
     padding:5px;
     border-radius: 10px;
     box-shadow: 5px 3px 3px #d9d9d9;}
 .Description2 {
     position: relative;
-    width:45%;
+    width:44%;
     padding-left: 15px;}
 .Description2 i {
     margin-right:2px;}
@@ -227,12 +231,12 @@ form {
     margin:10px 0 0 0;
     font-weight:bold;}
 .prix2 {
-    margin:5px 0 0 0;}
+    margin:5px 0 5px 0;}
 .prix2 span {
     font-weight: bold;}
 .note2 {
     position: absolute;
-    bottom: 5px;
+    bottom: 3px;
     font-size: 0.8em;}
 .inline-text-icon {
     display:flex;
