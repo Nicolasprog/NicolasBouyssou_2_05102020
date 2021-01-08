@@ -292,10 +292,9 @@ footer {                                                                    /*Bl
 footer span {
     font-weight: bold;}
 .Rubriques {
-    flex-direction: column;
     margin-top:25px;}
 .Rubriques a {
-    margin:0 0 10px 0;}
+    margin:20px 0 0 0;}
 .A.propos {
     margin-left:5%;}
 .Nos.hébergements {
@@ -608,7 +607,7 @@ form {
 footer {                                                                    /*Bloc FOOTER*/
     display:flex;
     flex-direction: column;
-    padding:45px 0 0 5%;
+    padding:45px 0 50px 5%;
     margin-top: 50px;
     background-color: #f2f2f2;}
 footer span {
