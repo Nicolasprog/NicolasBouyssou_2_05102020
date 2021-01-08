@@ -292,6 +292,7 @@ footer {                                                                    /*Bl
 footer span {
     font-weight: bold;}
 .Rubriques {
+    flex-direction: column;
     margin-top:25px;}
 .Rubriques a {
     margin:0 0 10px 0;}
